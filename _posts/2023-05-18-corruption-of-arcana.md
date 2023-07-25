@@ -4,9 +4,9 @@ layout: post
 categories: media
 ---
 
-![title](/assets/COA.png))
+![COASplashImage]([/assets/COA.png](https://github.com/andrewscott02/andrewscott02.github.io/blob/master/assets/CoA.png)))
 
-##Details
+## Details
 
 Necropanda Games (8 - 13 developers) | Game Engine - Unity | 2021-2023 | Lead Programmer
 
@@ -22,6 +22,6 @@ Necropanda Games (8 - 13 developers) | Game Engine - Unity | 2021-2023 | Lead Pr
   Fortune favors the bold.
 </p>
 
-##Trailer
+## Trailer
 
 {% include embed.html url="https://www.youtube.com/watch?v=r8M4nrsPlGo" %}
