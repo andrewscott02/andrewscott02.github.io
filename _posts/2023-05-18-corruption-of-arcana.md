@@ -4,7 +4,7 @@ layout: post
 categories: media
 ---
 
-![COASplashImage]((Images/COA.png))
+![COASplashImage](Images/COA.png)
 
 ## Details
 
