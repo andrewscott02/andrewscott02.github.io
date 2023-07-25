@@ -1,6 +1,6 @@
 ---
-title: "About"
-permalink: "/about/"
+title: "Jekyll Info (delete)"
+permalink: "/jekyll/"
 layout: page
 ---
 
