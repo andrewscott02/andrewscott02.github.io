@@ -4,7 +4,7 @@ layout: post
 categories: media
 ---
 
-![COASplashImage]([/assets/COA.png](https://github.com/andrewscott02/andrewscott02.github.io/blob/master/assets/CoA.png)))
+![COASplashImage]((https://github.com/andrewscott02/andrewscott02.github.io/blob/master/assets/CoA.png)))
 
 ## Details
 
