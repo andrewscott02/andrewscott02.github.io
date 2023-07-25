@@ -8,6 +8,10 @@ categories: media
 
 ## Details
 
+Play Corruption of Arcana - https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled
+
+View Code on Github - https://github.com/MoonsoonGames/Corruption-of-Arcana
+
 Necropanda Games (8 - 13 developers) | Game Engine - Unity | 2021-2023 | Lead Programmer
 
 <p>
