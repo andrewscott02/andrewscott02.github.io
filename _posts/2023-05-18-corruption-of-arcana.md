@@ -4,7 +4,7 @@ layout: post
 categories: media
 ---
 
-![title](/assets//COA.png))
+![title](/assets/COA.png))
 
 ##Details
 
