@@ -4,7 +4,7 @@ layout: post
 categories: media
 ---
 
-![COASplashImage](Images/CorruptionofArcanabanner.jpg)
+![COASplashImage](https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/CoA.png)
 
 
 ## Details
