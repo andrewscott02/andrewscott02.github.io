@@ -6,7 +6,7 @@ categories: media
 
 ## Details
 
-View code on Github - https://github.com/andrewscott02/Action-Game
+[View code on Github](https://github.com/andrewscott02/Action-Game)
 
 Dissertation | Game Engine - Unity | 2022-2023
 
@@ -16,4 +16,4 @@ Dissertation | Game Engine - Unity | 2022-2023
 
 ## Trailer
 
-{% include embed.html url="https://www.youtube.com/watch?v=lme6oJXwc10&t=1s" %}
+{% include embed.html url="https://www.youtube.com/embed/_v=lme6oJXwc10&t=1s" %}
