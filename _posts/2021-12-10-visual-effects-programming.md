@@ -1,7 +1,7 @@
 ---
 title:  "Visual Effects Programming"
 layout: post
-categories: project
+categories: media
 ---
 
 [View code on Github](https://github.com/andrewscott02/Graphics-Programming)
