@@ -5,8 +5,6 @@ title: "Home"
 
 {% if site.show_excerpts %}
   {% include home.html %}
-{% endif %}
-
-{% if site.show_postsummary %}
+{% else %}
   {% include archive.html title="Posts" %}
 {% endif %}
