@@ -4,7 +4,7 @@ layout: post
 categories: media
 ---
 
-![COASplashImage](Images/Corruption of Arcana banner.jpg)
+![COASplashImage](Images/CorruptionofArcanabanner.jpg)
 
 
 ## Details
