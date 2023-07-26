@@ -4,6 +4,9 @@ layout: post
 categories: media
 ---
 
+{% include embed.html url="https://www.youtube.com/embed/lg1MPgQ8eVY" %}
+
+
 ## Details
 
 Year 2 College Project | Game Engine - Unreal Engine 4 | 2019
@@ -13,7 +16,3 @@ Year 2 College Project | Game Engine - Unreal Engine 4 | 2019
 
 In this project, I used the visual scripting blueprints in the Unreal Engine.
 </p>
-
-## Trailer
-
-{% include embed.html url="https://www.youtube.com/embed/lg1MPgQ8eVY" %}
