@@ -7,8 +7,6 @@ categories: media
 {% include embed.html url="https://www.youtube.com/embed/r8M4nrsPlGo" %}
 
 
-![COASplashImage](https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/CoA.png)
-
 ## Details
 
 [Play Corruption of Arcana](https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled)
