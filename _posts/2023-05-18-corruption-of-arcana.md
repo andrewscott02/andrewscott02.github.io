@@ -29,4 +29,4 @@ Necropanda Games (8 - 13 developers) | Game Engine - Unity | 2021-2023 | Lead Pr
 
 ## Gameplay
 
-{% include embed.html url="https://www.youtube.com/embed/lg1MPgQ8eVY" %}
+{% include embed.html url="https://www.youtube.com/embed/jiBdAU9u8sc" %}
