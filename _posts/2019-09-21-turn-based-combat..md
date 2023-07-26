@@ -1,7 +1,7 @@
 ---
 title:  "Turn Based Combat System"
 layout: post
-categories: game
+categories: project
 ---
 
 {% include embed.html url="https://www.youtube.com/embed/lg1MPgQ8eVY" %}
