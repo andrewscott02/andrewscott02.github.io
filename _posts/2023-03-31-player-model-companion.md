@@ -1,7 +1,7 @@
 ---
 title:  "Player Modelling Companion AI"
 layout: post
-categories: media
+categories: project
 ---
 
 {% include embed.html url="https://www.youtube.com/embed/lme6oJXwc10" %}
