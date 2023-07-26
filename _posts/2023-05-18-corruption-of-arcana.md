@@ -4,8 +4,8 @@ layout: post
 categories: media
 ---
 
-[Play Corruption of Arcana](https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled)
 {% include embed.html url="https://www.youtube.com/embed/r8M4nrsPlGo" %}
+[Play Corruption of Arcana](https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled)
 
 
 ## Details
