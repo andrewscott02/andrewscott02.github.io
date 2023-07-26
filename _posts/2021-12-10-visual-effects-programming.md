@@ -4,6 +4,9 @@ layout: post
 categories: media
 ---
 
+![Graphics Image](https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/GraphicsImages.png)
+
+
 [View code on Github](https://github.com/andrewscott02/Graphics-Programming)
 
 ## Details
