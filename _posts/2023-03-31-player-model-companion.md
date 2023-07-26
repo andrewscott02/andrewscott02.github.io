@@ -16,4 +16,4 @@ Dissertation | Game Engine - Unity | 2022-2023
 
 ## Trailer
 
-{% include embed.html url="https://www.youtube.com/embed/_v=lme6oJXwc10&t=1s" %}
+{% include embed.html url="https://www.youtube.com/embed/lme6oJXwc10" %}
