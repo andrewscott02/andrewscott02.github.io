@@ -1,7 +1,7 @@
 ---
 title:  "Rookie Awards Finalist"
 layout: post
-categories: post
+categories: award
 ---
 
 ![Rookies Image](https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Game%20of%20the%20Year-Mobile-Andrew%20Scott.png)
