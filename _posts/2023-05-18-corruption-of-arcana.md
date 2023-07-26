@@ -26,3 +26,7 @@ Necropanda Games (8 - 13 developers) | Game Engine - Unity | 2021-2023 | Lead Pr
 <p>
   Fortune favors the bold.
 </p>
+
+## Gameplay
+
+{% include embed.html url="https://www.youtube.com/embed/lg1MPgQ8eVY" %}
