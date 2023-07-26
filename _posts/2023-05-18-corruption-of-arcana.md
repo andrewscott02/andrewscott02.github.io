@@ -1,7 +1,7 @@
 ---
 title:  "Corruption of Arcana"
 layout: post
-categories: media
+categories: game
 ---
 
 {% include embed.html url="https://www.youtube.com/embed/r8M4nrsPlGo" %}
