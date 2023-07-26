@@ -1,5 +1,5 @@
 ---
-title:  "Rookies Game of the Year Mobile Finalist"
+title:  "Rookie Awards Finalist"
 layout: post
 categories: post
 ---
