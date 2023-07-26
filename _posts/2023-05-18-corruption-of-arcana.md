@@ -4,8 +4,10 @@ layout: post
 categories: media
 ---
 
-![COASplashImage](https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/CoA.png)
+{% include embed.html url="https://www.youtube.com/embed/r8M4nrsPlGo" %}
 
+
+![COASplashImage](https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/CoA.png)
 
 ## Details
 
@@ -26,7 +28,3 @@ Necropanda Games (8 - 13 developers) | Game Engine - Unity | 2021-2023 | Lead Pr
 <p>
   Fortune favors the bold.
 </p>
-
-## Trailer
-
-{% include embed.html url="https://www.youtube.com/embed/r8M4nrsPlGo" %}
