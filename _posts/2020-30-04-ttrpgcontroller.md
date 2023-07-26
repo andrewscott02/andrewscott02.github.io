@@ -1,7 +1,7 @@
 ---
 title:  "TTRPG Controller"
 layout: post
-categories: project
+categories: media
 ---
 
 {% include embed.html url="https://www.youtube.com/embed/TVrhjMUS844" %}
