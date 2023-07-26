@@ -16,4 +16,4 @@ In this project, I used the visual scripting blueprints in the Unreal Engine.
 
 ## Trailer
 
-{% include embed.html url="https://www.youtube.com/watch?v=lg1MPgQ8eVY" %}
+{% include embed.html url="https://www.youtube.com/embed/lg1MPgQ8eVY" %}
