@@ -8,7 +8,7 @@ permalink: /projects/corruption-of-arcana
 {% include embed.html url="https://www.youtube.com/embed/r8M4nrsPlGo" %}
 [Play Corruption of Arcana](https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled)
 
-##Awards
+## Awards
 
 <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/rookie-awards-goty-hc.png" width="100"> <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/finalist-rookie-awards.png" width="100">
 
