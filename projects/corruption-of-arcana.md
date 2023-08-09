@@ -10,7 +10,7 @@ permalink: /projects/corruption-of-arcana
 
 ##Awards
 
-<img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/rookie-awards-goty-hc.png" width="50"> <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/finalist-rookie-awards.png" width="50">
+<img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/rookie-awards-goty-hc.png" width="100"> <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/finalist-rookie-awards.png" width="100">
 
 [View our entry](https://www.therookies.co/entries/24461)
 
