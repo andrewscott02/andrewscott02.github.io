@@ -2,7 +2,7 @@
 title:  "Corruption of Arcana - Deckbuilding System Programming"
 layout: post
 categories: media
-permalink: /projects/corruption-of-arcana/combatprogramming
+permalink: /projects/corruption-of-arcana/deckprogramming
 ---
 
 Using the existing card drag and drop system for combat, we made a deckbuilding system that allows the player to build their deck by dragging cards from their collection into their deck. I was responsible for how the data from each deck gets used and updates the player's cards in combat.
