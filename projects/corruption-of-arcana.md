@@ -11,7 +11,7 @@ permalink: /projects/corruption-of-arcana
 
 ## My Involvement
 
-Combat System Programmer | Tutorial Programmer | Quest System Programmer | Deckbuilding System Programmer
+[Combat System Programmer](https://andrewscott02.github.io/projects/corruption-of-arcana/combatprogramming) | [Combat System Designer](https://andrewscott02.github.io/projects/corruption-of-arcana/combatdesign) | Tutorial Programmer | Quest System Programmer | Deckbuilding System Programmer
 
 ## Details
 
