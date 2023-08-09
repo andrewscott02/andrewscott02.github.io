@@ -8,6 +8,10 @@ permalink: /projects/corruption-of-arcana
 {% include embed.html url="https://www.youtube.com/embed/r8M4nrsPlGo" %}
 [Play Corruption of Arcana](https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled)
 
+##Awards
+![Rookies Image - Highly Commended](https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/rookie-awards-goty-hc.png)
+![Rookies Image - Finalist](https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/finalist-rookie-awards.png)
+[View our entry](https://www.therookies.co/entries/24461)
 
 ## My Involvement
 
