@@ -8,6 +8,10 @@ categories: media
 [Play Corruption of Arcana](https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled)
 
 
+## My Involvement
+
+Combat System Programmer | Tutorial Programmer | Quest System Programmer | Deckbuilding System Programmer
+
 ## Details
 
 [View Code on Github](https://github.com/MoonsoonGames/Corruption-of-Arcana)
@@ -29,7 +33,3 @@ Necropanda Games (8 - 13 developers) | Game Engine - Unity | 2021-2023 | Lead Pr
 ## Gameplay
 
 {% include embed.html url="https://www.youtube.com/embed/jiBdAU9u8sc" %}
-
-## My Involvement
-
-Combat System Programmer | Tutorial Programmer | Quest System Programmer | Deckbuilding System Programmer
