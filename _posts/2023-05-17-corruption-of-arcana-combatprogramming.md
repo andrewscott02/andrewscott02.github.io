@@ -5,6 +5,7 @@ categories: media
 ---
 
 As the combat programmer, I was responsible for the implementation of all the game's combat systems. I started out with paper prototypes to test out initial ideas and then moved onto prototypes in unity to learn how to implement these in a basic way.
+[View source code](https://github.com/andrewscott02/Corruption-of-Arcana/tree/main/Assets/Scripts/Combat)
 
 
 {% include embed.html url="https://www.youtube.com/embed/TzelEoHJmcA" %}
