@@ -12,7 +12,7 @@ permalink: /projects/corruption-of-arcana
 
 <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/rookie-awards-goty-hc.png" width="5">
 
-<img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/finalist-rookie-awards.png | width=10">
+<img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/finalist-rookie-awards.png" width="10">
 
 ![Rookies Image - Highly Commended](https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/rookie-awards-goty-hc.png | width=5)
 
