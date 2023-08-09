@@ -2,6 +2,7 @@
 title:  "Godsent"
 layout: post
 categories: media
+permalink: /projects/godsent
 ---
 
 {% include embed.html url="https://www.youtube.com/embed/I9EzZFoWANU" %}

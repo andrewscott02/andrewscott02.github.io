@@ -2,6 +2,7 @@
 title:  "Corruption of Arcana - Combat System Programming"
 layout: post
 categories: media
+permalink: /projects/corruption-of-arcana/combatprogramming
 ---
 
 As the combat programmer, I was responsible for the implementation of all the game's combat systems. I started out with paper prototypes to test out initial ideas and then moved onto prototypes in unity to learn how to implement these in a basic way.
