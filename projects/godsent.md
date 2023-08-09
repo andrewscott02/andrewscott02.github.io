@@ -1,0 +1,17 @@
+---
+title:  "Godsent"
+layout: post
+categories: media
+---
+
+{% include embed.html url="https://www.youtube.com/embed/I9EzZFoWANU" %}
+[Play Godsent](https://eggicalgirl.itch.io/godsent)
+
+
+## Details
+
+Year 1 University Project (8 developers) | Game Engine - Unity | 2020-2021 | Programmer
+
+<p>
+  You are a nun granted powers by God to defeat the Seven Princes of Hell but you must decide how far you are willing to suffer for your faith or whether you will give into the allure of power.
+</p>
