@@ -2,6 +2,7 @@
 title:  "Corruption of Arcana - Combat System Design"
 layout: post
 categories: media
+permalink: /projects/corruption-of-arcana/combatdesign
 ---
 
 I worked closely with one of the designers on our team to create the core concepts of our combat system. This is my breakdown for how we designed the spells for our combat system inspired by Tarot cards.
