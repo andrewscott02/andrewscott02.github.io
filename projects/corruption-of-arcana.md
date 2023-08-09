@@ -2,6 +2,7 @@
 title:  "Corruption of Arcana"
 layout: post
 categories: media
+permalink: /projects/corruption-of-arcana
 ---
 
 {% include embed.html url="https://www.youtube.com/embed/r8M4nrsPlGo" %}
