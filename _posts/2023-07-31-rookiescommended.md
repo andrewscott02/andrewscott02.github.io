@@ -1,5 +1,5 @@
 ---
-title:  "Rookie Awards Finalist"
+title:  "Rookie Awards Highly Commended"
 layout: post
 categories: media
 ---
@@ -8,4 +8,4 @@ categories: media
 [View our entry](https://www.therookies.co/entries/24461)
 
 
-I am proud to announce that Battle for Arcana, our mobile version of Corruption of Arcana, has been nominated as a finalist for the Rookies Game of the Year Mobile category.
+I am proud to announce that Battle for Arcana, our mobile version of Corruption of Arcana, has achieved the Highly Commended award for the Rookies Game of the Year Mobile category.
