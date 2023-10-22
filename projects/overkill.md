@@ -6,6 +6,7 @@ permalink: /projects/overkill
 ---
 
 <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/OverkillSplashImage.png">
+[Play Overkill](https://andrewjscott02.itch.io/overkill)
 
 ## Details
 
@@ -20,5 +21,5 @@ Personal Project | Game Engine - Unity | 2023
 </p>
 
 <p>
-  Submission for the UDC Jam #27 - https://itch.io/jam/udc-jam-27/rate/2255113
+  Submission for the UDC Jam #27 - [Play Overkill](https://itch.io/jam/udc-jam-27/rate/2255113)
 </p>
