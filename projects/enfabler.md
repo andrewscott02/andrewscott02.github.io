@@ -10,7 +10,7 @@ permalink: /projects/enfabler
 
 ## Devlogs
 
-[Combat System Programmer](https://andrewscott02.github.io/enfabler1/)
+[Devlog 1 - Game Overview, Combat Design and Arena Mode Demo](https://andrewscott02.github.io/enfabler1/)
 
 ## Details
 
