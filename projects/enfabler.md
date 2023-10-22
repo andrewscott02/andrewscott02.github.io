@@ -26,9 +26,8 @@ Personal Project | Game Engine - Unity | Current Project
   Explore dungeons, defeat monsters and thwart villains to earn your place as a hero.
 </p>
 
-## Gameplay
+## Screenshots
 
-{% include embed.html url="https://www.youtube.com/embed/vU27mIJ5RN0?si=ZuXSUSo7JXUHKsfL" %}
 <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(8).png">
 <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(7).png">
 <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(9).png">
