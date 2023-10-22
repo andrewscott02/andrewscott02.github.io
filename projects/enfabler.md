@@ -11,7 +11,7 @@ permalink: /projects/enfabler
 
 [View Code on Github](https://github.com/andrewscott02/Enfabler)
 
-Necropanda Games (8 - 13 developers) | Game Engine - Unity | 2021-2023 | Lead Programmer
+Personal Project | Game Engine - Unity | Current Project
 
 <p>
   Follow the journey of a famed storyteller who is searching for the perfect hero for their next big story.
