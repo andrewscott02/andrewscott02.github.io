@@ -5,7 +5,8 @@ categories: media
 permalink: /projects/enfabler
 ---
 
-{% include embed.html url="https://www.youtube.com/embed/vU27mIJ5RN0?si=ZuXSUSo7JXUHKsfL" %} Play Enfabler
+{% include embed.html url="https://www.youtube.com/embed/vU27mIJ5RN0?si=ZuXSUSo7JXUHKsfL" %}
+[Play Enfabler](https://andrewjscott02.itch.io/enfabler)
 
 ## Details
 
@@ -27,7 +28,7 @@ Personal Project | Game Engine - Unity | Current Project
 
 ## Gameplay
 
-{% include embed.html url="https://www.youtube.com/embed/vU27mIJ5RN0?si=ZuXSUSo7JXUHKsfL" %} Play Enfabler
+{% include embed.html url="https://www.youtube.com/embed/vU27mIJ5RN0?si=ZuXSUSo7JXUHKsfL" %}
 <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(8).png">
 <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(7).png">
 <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(9).png">
