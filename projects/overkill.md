@@ -9,6 +9,8 @@ permalink: /projects/overkill
 
 ## Details
 
+Personal Project | Game Engine - Unity | 2023
+
 <p>
   Play as a raiding party of demons looking to take over the Earth for the forces of hell in this turn-based RPG with a twist.
 </p>
