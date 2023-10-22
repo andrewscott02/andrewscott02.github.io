@@ -5,7 +5,7 @@ categories: media
 permalink: /projects/enfabler
 ---
 
-<img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(8).png">
+{% include embed.html url="https://www.youtube.com/embed/vU27mIJ5RN0?si=ZuXSUSo7JXUHKsfL" %} Play Enfabler
 
 ## Details
 
@@ -27,8 +27,8 @@ Necropanda Games (8 - 13 developers) | Game Engine - Unity | 2021-2023 | Lead Pr
 
 ## Gameplay
 
-{% include embed.html url="https://youtu.be/vU27mIJ5RN0" %}
-
-https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(7).png
-https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(9).png
-https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(1).png
+{% include embed.html url="https://www.youtube.com/embed/vU27mIJ5RN0?si=ZuXSUSo7JXUHKsfL" %} Play Enfabler
+<img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(8).png">
+<img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(7).png">
+<img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(9).png">
+<img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/Enfabler%20(1).png">
