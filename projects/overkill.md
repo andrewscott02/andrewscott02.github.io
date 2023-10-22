@@ -21,5 +21,5 @@ Personal Project | Game Engine - Unity | 2023
 </p>
 
 <p>
-  Submission for the [UDC Jam #27](https://itch.io/jam/udc-jam-27/rate/2255113)
+  [Submission for the UDC Jam #27](https://itch.io/jam/udc-jam-27/rate/2255113)
 </p>
