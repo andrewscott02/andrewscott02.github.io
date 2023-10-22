@@ -8,6 +8,10 @@ permalink: /projects/enfabler
 {% include embed.html url="https://www.youtube.com/embed/vU27mIJ5RN0?si=ZuXSUSo7JXUHKsfL" %}
 [Play Enfabler](https://andrewjscott02.itch.io/enfabler)
 
+## Devlogs
+
+[Combat System Programmer](https://andrewscott02.github.io/enfabler1/)
+
 ## Details
 
 [View Code on Github](https://github.com/andrewscott02/Enfabler)
