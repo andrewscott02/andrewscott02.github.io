@@ -5,12 +5,13 @@ categories: media
 permalink: /projects/enfabler
 ---
 
-{% include embed.html url="https://www.youtube.com/embed/vU27mIJ5RN0?si=ZuXSUSo7JXUHKsfL" %}
+{% include embed.html url="https://www.youtube.com/embed/gY_mnvMNSJY?si=45oVAltgySdIyz_2" %}
 [Play Enfabler](https://andrewjscott02.itch.io/enfabler)
 
 ## Devlogs
 
 [Devlog 1 - Game Overview, Combat Design and Arena Mode Demo](https://andrewscott02.github.io/enfabler1/)
+[Devlog 2 - Enemies and Shrines](https://andrewscott02.github.io/enfabler2/)
 
 ## Details
 
