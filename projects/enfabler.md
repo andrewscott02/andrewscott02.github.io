@@ -11,6 +11,7 @@ permalink: /projects/enfabler
 ## Devlogs
 
 [Devlog 1 - Game Overview, Combat Design and Arena Mode Demo](https://andrewscott02.github.io/enfabler1/)
+
 [Devlog 2 - Enemies and Shrines](https://andrewscott02.github.io/enfabler2/)
 
 ## Details
