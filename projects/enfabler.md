@@ -14,7 +14,9 @@ permalink: /projects/enfabler
 
 [Devlog 2 - Enemies and Shrines](https://andrewscott02.github.io/enfabler2/)
 
-[Devlog 3 - Procedural Dungeons](https://andrewscott02.github.io/enfabler3/)
+[Devlog 3 - Procedural Dungeons Part 1](https://andrewscott02.github.io/enfabler3/)
+
+[Devlog 4 - Procedural Dungeons Part 2](https://andrewscott02.github.io/enfabler4/)
 
 ## Details
 
