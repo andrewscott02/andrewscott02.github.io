@@ -5,7 +5,7 @@ categories: media
 permalink: /projects/enfabler
 ---
 
-{% include embed.html url="https://www.youtube.com/embed/OZZhYUVBczo?si=HL_LBFJgOujUd2FN" %}
+{% include embed.html url="https://www.youtube.com/embed/DegAycmnGOY?si=fU7q4EhseV6Rkj3H" %}
 [Play Enfabler](https://andrewjscott02.itch.io/enfabler)
 
 ## Devlogs
