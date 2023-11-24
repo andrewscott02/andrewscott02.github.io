@@ -18,6 +18,8 @@ permalink: /projects/enfabler
 
 [Devlog 4 - Procedural Dungeons (Part 2)](https://andrewscott02.github.io/enfabler4/)
 
+[Devlog 5 - Puzzles, AI Managers and The Cuttery](https://andrewscott02.github.io/enfabler5/)
+
 ## Details
 
 [View Code on Github](https://github.com/andrewscott02/Enfabler)
