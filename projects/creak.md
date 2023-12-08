@@ -5,7 +5,7 @@ categories: media
 permalink: /projects/creak
 ---
 
-<img src="https://img.itch.zone/aW1nLzE0MjUwMzMyLnBuZw==/315x250%23c/z7DwkN.png">
+<img src="https://img.itch.zone/aW1nLzE0MjcwODQzLnBuZw==/315x250%23c/tEd6jy.png">
 [Play Creak](https://andrewjscott02.itch.io/creak)
 
 ## Details
