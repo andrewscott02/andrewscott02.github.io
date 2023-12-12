@@ -2,6 +2,7 @@
 title:  "Turn Based Combat System"
 layout: post
 categories: media
+permalink: /projects/turnbasedcombat
 ---
 
 {% include embed.html url="https://www.youtube.com/embed/lg1MPgQ8eVY" %}
