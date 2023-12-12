@@ -53,6 +53,8 @@ The companion tends to use more supportive actions when the player is performing
 
 ### Aggressive
 
+{% include embed.html url="https://www.youtube.com/embed/DoBMMB33CXE?si=qw5Yr9Ghendjw4EO" %}
+
 <p>
 When the player is being aggressive, the companion will leave them to keep playing as they are and not intervene. In this state, they will focus on enemies the player is not targeting.
 </p>
@@ -60,11 +62,15 @@ When the player is being aggressive, the companion will leave them to keep playi
 
 ### Countering
 
+{% include embed.html url="https://www.youtube.com/embed/aN-fx0GVZY4?si=V_CwQXcejaBtVcJk" %}
+
 <p>
 When the player only attacks after parrying or dodging an attack, the companion will attempt to attack the player's target to give them more openings to go on the offensive
 </p>
 
 ### Defensive
+
+{% include embed.html url="https://www.youtube.com/embed/rP8KgW5zFdM?si=bIVrfMrv7glPvnk3" %}
 
 <p>
 When the player is performing lots of parries, but are not countering, the companion will rush towards the player and attack nearby enemies to give them some breathing room.
@@ -72,11 +78,15 @@ When the player is performing lots of parries, but are not countering, the compa
   
 ### Mobile
 
+{% include embed.html url="https://www.youtube.com/embed/swvzDrPDw1U?si=-WQL1PHOlGq2lB-I" %}
+
 <p>
 When the player is dodging and moving around a lot, the companion will try to draw enemies away from the player so that they can focus on a smaller number of enemies and start being more aggressive
 </p>
   
 ### Panicking
+
+{% include embed.html url="https://www.youtube.com/embed/VmrLbL3tL3Q?si=rd7f1nc7DvxeglQr" %}
 
 <p>
 The most extreme state is entered when the player is missing lots of attacks, parrying or dodging when no enemies are attacking or they are getting hit by enemies. In this state, the companion will forcefully interject themselves between the player and nearby enemies, acting as a shield for the player so they can reposition and regain their composure.
