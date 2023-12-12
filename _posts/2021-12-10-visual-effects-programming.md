@@ -2,6 +2,7 @@
 title:  "Visual Effects Programming"
 layout: post
 categories: media
+permalink: /projects/visualefx
 ---
 
 ![Graphics Image](https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/GraphicsImages.png)
