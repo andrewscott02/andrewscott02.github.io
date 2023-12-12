@@ -51,7 +51,7 @@ I wanted to keep the behaviours generic such that this AI could be used as a tem
 <p>
 The companion tends to use more supportive actions when the player is performing well; they are being aggressive or are successfully countering their enemies' attacks. As the player starts to be more defensive, or is struggling, the companion will intervene in a more obvious way. Most of the actions are designed in a way to try to get the player to be more aggressive.
 
-### Aggressive
+## Aggressive
 
 {% include embed.html url="https://www.youtube.com/embed/DoBMMB33CXE?si=qw5Yr9Ghendjw4EO" %}
 
@@ -60,7 +60,7 @@ When the player is being aggressive, the companion will leave them to keep playi
 </p>
 
 
-### Countering
+## Countering
 
 {% include embed.html url="https://www.youtube.com/embed/aN-fx0GVZY4?si=V_CwQXcejaBtVcJk" %}
 
@@ -68,7 +68,7 @@ When the player is being aggressive, the companion will leave them to keep playi
 When the player only attacks after parrying or dodging an attack, the companion will attempt to attack the player's target to give them more openings to go on the offensive
 </p>
 
-### Defensive
+## Defensive
 
 {% include embed.html url="https://www.youtube.com/embed/rP8KgW5zFdM?si=bIVrfMrv7glPvnk3" %}
 
@@ -76,7 +76,7 @@ When the player only attacks after parrying or dodging an attack, the companion 
 When the player is performing lots of parries, but are not countering, the companion will rush towards the player and attack nearby enemies to give them some breathing room.
 </p>
   
-### Mobile
+## Mobile
 
 {% include embed.html url="https://www.youtube.com/embed/swvzDrPDw1U?si=-WQL1PHOlGq2lB-I" %}
 
@@ -84,7 +84,7 @@ When the player is performing lots of parries, but are not countering, the compa
 When the player is dodging and moving around a lot, the companion will try to draw enemies away from the player so that they can focus on a smaller number of enemies and start being more aggressive
 </p>
   
-### Panicking
+## Panicking
 
 {% include embed.html url="https://www.youtube.com/embed/VmrLbL3tL3Q?si=rd7f1nc7DvxeglQr" %}
 
