@@ -10,19 +10,19 @@
 {% if site.minimal %}
 
 body > header
-  background: $dark
-  color: $light
+  background: $light
+  color: $dark
   border-bottom: 1px solid reduce(14)
 
 {% else %}
 
 body > header
-  box-shadow: 0 0 .6em rgba($dark, 0.04)
+  box-shadow: 0 0 .6em rgba($light, 0.04)
   border-bottom: 1px solid reduce(14)
 
 {% endif %}
 
 body > footer
-  box-shadow: 0 0 .6em rgba($dark, 0.04) inset
+  box-shadow: 0 0 .6em rgba($light, 0.04) inset
   border-top: 1px solid reduce(14)
   opacity: .9
