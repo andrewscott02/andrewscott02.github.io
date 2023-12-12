@@ -2,6 +2,7 @@
 title:  "Player Modelling Companion AI"
 layout: post
 categories: media
+permalink: /projects/playermodelai
 ---
 
 {% include embed.html url="https://www.youtube.com/embed/lme6oJXwc10" %}
