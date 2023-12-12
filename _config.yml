@@ -22,9 +22,9 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "blog.html"}
   - {file: "about.html"}
   - {file: "awards.html"}
-  - {title: Itch.Io Page, url: "https://andrewjscott02.itch.io/"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Itch.Io Page, icon: itch.io, url: "https://andrewjscott02.itch.io/"}
   - {title: Mail, icon: envelope, url: "mailto:andrewscott02@icloud.com"}
   - {title: Github, icon: github, url: "https://github.com/andrewscott02"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/andrew-scott-8ba2b518a/"}
