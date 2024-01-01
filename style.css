@@ -63,10 +63,20 @@ a
 	flex-wrap: wrap;
 }
 
-.video
+iframe
 {
-	height: 15rem;
-	width: 25rem;
+	height: 25rem;
+	width: 35rem;
+	margin: 2rem;
+	box-shadow: 0 0.5rem 1rem rbga(0, 0, 0, 0.5);
+	overflow: hidden;
+	border-radius: 1rem;
+}
+
+.thumbnail img
+{
+	height: 25rem;
+	width: 35rem;
 	margin: 2rem;
 	box-shadow: 0 0.5rem 1rem rbga(0, 0, 0, 0.5);
 	overflow: hidden;
