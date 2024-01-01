@@ -71,6 +71,30 @@
             <p>
                 Creak is a 2D platformer where you can only see through sound. Collide your character with obstacles to create sound waves that allow you to see.
             </p>
+            <p>
+                In this game jam, I decided to opt for a game with a much smaller scope and get a more polished experience. In my previous game jam, I went for a pretty ambitious project and ended up rushing it, leading to a very unpolished experience. Going into development for Creak, I made sure I had a small scope and considered every decision I made more.
+            </p>
+            <p>
+                With the theme of silence, I originally thought to do a stealth game, but I reckoned it may be too obvious and I couldn't think of any unique ideas to make my game stand out. The idea of a game where you can see through sound came from considering a tutorial I watched a few years ago when working on an assignment at uni.
+            </p>
+            <p>
+                When learning URP and shadergraph, I watched a video that involved changing the forward rendering settings to render objects in front of other objects. In the video, this was used to show silhouettes of characters if they moved behind objects so you could still see where they were, but in creak, I set it so it shows an object only if it is behind another object.
+            </p>
+            <p>
+                The soundwave object is always rendered and the changes to the forward rendering settings only allow other objects to be rendered behind the soundwave. I used shadergraph to create a fresnel effect around the soundwaves and all objects.
+            </p>
+            <p>
+                Unfortunately, these occlusion options seemed to only work on opaque objects, and the way I wanted the objects and soundwaves to look required their materials to be transparent. To allow these materials to be used, I gave them an opaque material and then used the settings in the forward renderer to replace the material with the transparent one. This allowed me to make the materials look how I wanted.
+            </p>
+            <p>
+                From here, I worked on a bit of code that spawns in soundwave spheres upon collision, adjusting the size of the collision based on the impact velocity. The sphere will lerp to the desired scale and then shrink again, giving the player a brief burst of information.
+            </p>
+            <p>
+                This was the first puzzle platformer I've worked on, but the level design went fairly smoothly. I made sure that each level taught the player something that they would need in later levels, and that some would throw in false paths. The main struggle was knowing if the levels were too difficult, since I have knowledge of the level that the player doesn't have, as I can remember the exact layouts of the levels, so I did a bit of playtesting with my brother to make sure the levels weren't too difficult
+            </p>
+            <p>
+                Overall, I'm a bit more happy with this one compared to the last project. I ended up with a small, playable game that feels a lot more polished than my last one and I think I was able to put into practice some of the things I learned from my first game jam. I was even able to learn how to make a webgl build so it can be played in browser.
+            </p>
         </div>
 
     </body>
