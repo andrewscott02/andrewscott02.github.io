@@ -1,0 +1,46 @@
+.container
+{
+	width:560px;
+	height: 315px
+}
+
+*
+{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+.videogalleryold
+{
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 560px));
+}
+
+.videogallery
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.video
+{
+	height: 15rem;
+	width: 25rem;
+	margin: 2rem;
+	box-shadow: 0 0.5rem 1rem rbga(0, 0, 0, 0.5);
+	overflow: hidden;
+	border-radius: 1rem;
+}
