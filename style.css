@@ -27,6 +27,31 @@ a
 	color: #1d5bc4;
 }
 
+.socialnavbar ul
+{
+	list-style-type: none;
+	background-color: #1a1a1a;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.socialnavbar a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+}
+.socialnavbar a:hover
+{
+	background-color: #000000;
+}
+.socialnavbar li
+{
+	float: right;
+}
+
 .navbar ul
 {
 	list-style-type: none;
@@ -86,4 +111,24 @@ iframe
 .cv img
 {
 	overflow: hidden;
+}
+
+.banner
+{
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+}
+
+a.button
+{
+	background-color: #333333;
+	color:white;
+	border-radius:5px;
+
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 5px;
+	display: block;
+	text-align: center;
 }
