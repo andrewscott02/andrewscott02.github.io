@@ -1,20 +1,28 @@
-.container
-{
-	width:560px;
-	height: 315px
-}
-
 *
 {
 	margin:0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+
+	background: rbga(255, 255, 255, 255);
 }
 
 body
 {
 	min-height: 100vh;
 	overflow-x: hidden;
+}
+
+.header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+
+	background: rbga(255, 255, 255, 255);
 }
 
 .videogalleryold
@@ -43,4 +51,10 @@ body
 	box-shadow: 0 0.5rem 1rem rbga(0, 0, 0, 0.5);
 	overflow: hidden;
 	border-radius: 1rem;
+}
+
+.container
+{
+	width:560px;
+	height: 315px
 }
