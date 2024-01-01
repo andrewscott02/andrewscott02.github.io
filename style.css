@@ -15,6 +15,26 @@ body
 	color: #b02520
 }
 
+p {
+  line-height: 20px;   /* within paragraph */
+  margin-bottom: 30px; /* between paragraphs */
+  }
+
+.row
+{
+  display: flex;
+}
+
+.column
+{
+  flex: 50%;
+}
+
+.column10
+{
+  flex: 10%;
+}
+
 .about
 {
 	text-align: center;
