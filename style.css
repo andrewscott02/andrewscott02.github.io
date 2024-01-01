@@ -4,25 +4,45 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
-
-	background: rbga(255, 255, 255, 255);
 }
 
 body
 {
 	min-height: 100vh;
 	overflow-x: hidden;
+
+	background: #051530;
+	color: #b02520
 }
 
-.header
+a
 {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	padding: 20px 100px;
+	color: #1d5bc4;
+}
 
-	background: rbga(255, 255, 255, 255);
+.navbar ul
+{
+	list-style-type: none;
+	background-color: #1a1a1a;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.navbar a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+}
+.navbar a:hover
+{
+	background-color: #000000;
+}
+.navbar li
+{
+	float: left;
 }
 
 .videogalleryold
