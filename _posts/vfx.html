@@ -1,0 +1,73 @@
+<html>
+
+    <head>
+        <title>Visual FX Programming</title>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+
+        <link rel = "stylesheet" href = "../style.css">
+
+        <link rel = "homepage" href = "../index.html">
+        <link rel = "games" href = "../games.html">
+        <link rel = "projects" href = "../projects.html">
+        <link rel = "blog" href = "../blog.html">
+        <link rel = "aboutme" href = "../about.html">
+        <link rel = "awards" href = "../awards.html">
+    </head>
+
+    <body>
+        <header class_"header">
+            <nav class="socialnavbar">
+                <ul>
+                    <li><a href="mailto:andrewscott02@icloud.com">andrewscott02@icloud.com</a></li>
+                    <li><a href="https://www.linkedin.com/in/andrew-scott-8ba2b518a">LinkedIn</a></li>
+                </ul>
+            </nav>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../games.html">Games</a></li>
+                    <li><a href="../projects.html">Projects</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
+                    <li><a href="../about.html">About Me</a></li>
+                    <li><a href="../awards.html">Awards</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+
+    <body>
+
+        <h1 align="center">Visual FX Programming</h1>
+
+        <div align = "center">
+            <div class = "thumbnail">
+                <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/GraphicsImages.png">
+            </div>
+        </div>
+
+        <h2 align="center">Details</h2>
+        
+        <div class="banner">
+            <a href="https://github.com/andrewscott02/Graphics-Programming" class="button">View Source Code</a>
+        </div>
+
+        <div class = "about" align = "center">
+
+            <p>
+                University Project | Game Engine - Unity | 2021
+            </p>
+            <p>
+                In this project, I developed two visual effects using custom shaders and procedural mesh elements.
+            </p>
+            <p>
+                The first effect was a cartoon water effect that generates vertices and layers multiple sine waves to adjust the height of each vertex, which create a wave effect. The height of each vertex is also used to make small adjustments to the shader to provide a basic reflection effect, where the highest waves appear to have a brighter sheen than the lowest ones. There are other shaders layered over this colour adjustment that add an edge glow (composed of intersection glow and fresnel effect subgraphs) a foam effect and a foam effect, which makes a frothy effect on the surface and adds sparkles via a specs subgraph. There are public properties on the graphs that allow for changes, which I used to develop other liquid effects, such as lava and mud. This custom shader was used in our group project Corruption of Arcana.
+            </p>
+            <p>
+                The second effect was a sword trail, that generates vertices and adjusts their position using a quadratic lerp function that generates a smooth curve behind the sword upon which the trail mesh is generated. There are shaders that make an uneven colouring and add specs along the sword trail and a tiling effect, which alters the opacity of the trail.
+            </p>
+        </div>
+    </body>
+
+</html>
