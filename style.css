@@ -15,6 +15,13 @@ body
 	color: #b02520
 }
 
+.about
+{
+	text-align: center;
+	margin: 15;
+	padding: 15;
+}
+
 a
 {
 	color: #1d5bc4;
@@ -81,6 +88,11 @@ iframe
 	box-shadow: 0 0.5rem 1rem rbga(0, 0, 0, 0.5);
 	overflow: hidden;
 	border-radius: 1rem;
+}
+
+.cv img
+{
+	overflow: hidden;
 }
 
 .container
