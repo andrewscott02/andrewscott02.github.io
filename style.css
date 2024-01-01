@@ -52,7 +52,7 @@ a
 	float: left;
 }
 
-.videogalleryold
+.videogallery
 {
 	position: absolute;
 	justify-content: center;
@@ -61,13 +61,6 @@ a
 	width: 100vw;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 560px));
-}
-
-.videogallery
-{
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
 }
 
 iframe
@@ -93,10 +86,4 @@ iframe
 .cv img
 {
 	overflow: hidden;
-}
-
-.container
-{
-	width:560px;
-	height: 315px
 }
