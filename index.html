@@ -1,42 +1,67 @@
----
-layout: default
-title: "Home"
----
+<html>
 
-<p>
-  I am a games programmer, specializing in gameplay and AI programming, and have recently finished my studies at Falmouth University.
-</p>
+    <head>
+        <title>Homepage</title>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
 
-<p>
-  I enjoy games as a means of interactive storytelling, and I aim to closely tie narrative in with game mechanics. Though I specialize in programming, I also branch out into design in order to better link storytelling with gameplay. Experience with design helps me to develop interesting and evocative gameplay mechanics that help tell the story through gameplay.
-</p>
+        <link rel = "stylesheet" href = "style.css">
 
-<p>
-  As a programmer, my specialism is in gameplay programming and artificial intelligence. I have experience with designing and implementing behaviour for NPCs.
-</p>
+        <link rel = "homepage" href = "index.html">
+        <link rel = "games" href = "games.html">
+        <link rel = "projects" href = "projects.html">
+        <link rel = "aboutme" href = "about.html">
+        <link rel = "awards" href = "awards.html">
+    </head>
 
-<p>
-  I have also worked in a lot of group projects (between 2 and 13 developers), and so I have experience working with a team to deliver games. We used methodologies such as agile and scrum and tools such as Trello to better organize the team.
-</p>
+    <body>
+        <header class_"header">
+            <nav class="socialnavbar">
+                <ul>
+                    <li><a href="mailto:andrewscott02@icloud.com">andrewscott02@icloud.com</a></li>
+                    <li><a href="https://www.linkedin.com/in/andrew-scott-8ba2b518a">LinkedIn</a></li>
+                </ul>
+            </nav>
 
-<h1> Featured Project - Enfabler</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="awards.html">Awards</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
 
-<div id="banner" style="overflow: hidden; display: flex; justify-content:space-around;">
-    <button class="btn btn-outline"
-                  type="button"
-		  style="background-color: #333333; color:white; border-radius:5px;"
-		  width="450px"
-                  onclick="window.open('https://andrewjscott02.itch.io/enfabler', '_blank')">
-            Play Enfabler
-          </button>
+    <body>
 
-    <button class="btn btn-outline"
-                  type="button"
-		  style="background-color: #333333; color:white; border-radius:5px;"
-		  width="450px"
-                  onclick="window.open('https://andrewscott02.github.io/projects/enfabler', '_blank')">
-            View project details
-          </button>
-</div>
+        <h1 align="center"> Featured Projects</h1>
 
-{% include embed.html url="https://www.youtube.com/embed/DegAycmnGOY?si=fU7q4EhseV6Rkj3H" %}
+        <div class = "videogallery">
+            <!--Enfabler-->
+            <iframe width = "560" height = "315" src="https://www.youtube.com/embed/DegAycmnGOY?si=lSvGyp0nIE4MGtBZ" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <!--Corruption of Arcana-->
+            <iframe width = "560" height = "315" src="https://www.youtube.com/embed/r8M4nrsPlGo?si=7DKvqGvw6CWM9_Yy" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <!--Godsent-->
+            <div class = "thumbnail">
+                <img src="https://img.itch.zone/aW1hZ2UvMTA1MDY4Ny82MDA5NzI1LnBuZw==/347x500/hRWppU.png">
+            </div>
+
+            <!--TTRPG Controller-->
+            <iframe width = "560" height = "315" src="https://www.youtube.com/embed/TVrhjMUS844?si=dnmwZHIdKx-2eYxX" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <!--TTRPG Combat-->
+            <iframe width = "560" height = "315" src="https://www.youtube.com/embed/lg1MPgQ8eVY?si=67sKKbEN5KVo2_GK" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <!--VFX Programming-->
+            <div class = "thumbnail">
+                <img src="https://raw.githubusercontent.com/andrewscott02/andrewscott02.github.io/master/_posts/Images/GraphicsImages.png">
+            </div>
+        </div>
+    </body>
+
+</html>
