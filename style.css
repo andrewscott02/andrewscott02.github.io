@@ -62,6 +62,8 @@ a
 	padding: 15px;
 	display: block;
 	text-align: center;
+
+	font-size: 30px;
 }
 .socialnavbar a:hover
 {
@@ -126,6 +128,36 @@ iframe
 	box-shadow: 0 0.5rem 1rem rbga(0, 0, 0, 0.5);
 	overflow: hidden;
 	border-radius: 1rem;
+}
+
+.mediumicon img
+{
+	height: 4rem;
+	width: 5rem;
+	margin: 1rem;
+	box-shadow: 0 0.5rem 1rem rbga(0, 0, 0, 0.5);
+	overflow: hidden;
+	border-radius: 1.5rem;
+}
+
+.smallicon img
+{
+	height: 2rem;
+	width: 2rem;
+	margin: 1rem;
+	box-shadow: 0 0.5rem 1rem rbga(0, 0, 0, 0.5);
+	overflow: hidden;
+	border-radius: 1.5rem;
+}
+
+.largeicon img
+{
+	height: 13rem;
+	width: 15rem;
+	margin: 1rem;
+	box-shadow: 0 0.5rem 1rem rbga(0, 0, 0, 0.5);
+	overflow: hidden;
+	border-radius: 1.5rem;
 }
 
 .cv img
