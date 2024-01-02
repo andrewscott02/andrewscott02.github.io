@@ -11,8 +11,12 @@ body
 	min-height: 100vh;
 	overflow-x: hidden;
 
-	background: #051530;
-	color: #b02520
+	background: #152b23;
+
+	/* 152b23 - green */
+	/* 161c3b - blue */
+
+	color: #FFFFFF
 }
 
 p {
@@ -38,7 +42,7 @@ p {
 .about
 {
 	text-align: center;
-	margin: 15;
+	margin: 0;
 	padding: 15;
 }
 
