@@ -19,10 +19,17 @@ body
 	color: #FFFFFF
 }
 
-p {
+.bluesection
+{
+	background-color: #161c3b;
+	border-radius: 3rem;
+}
+
+p
+{
   line-height: 20px;   /* within paragraph */
   margin-bottom: 30px; /* between paragraphs */
-  }
+}
 
 .row
 {
