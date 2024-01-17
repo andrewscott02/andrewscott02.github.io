@@ -196,3 +196,40 @@ a.button
 	display: block;
 	text-align: center;
 }
+
+/* Style for the main hero image container */
+.heroImage
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/Banner_edited.jpg");
+
+	background-position: center;
+	background-size: 100% auto;
+	position: relative;
+	height: 50%;
+}
+
+/* Style for the elements in the hero image */
+.heroElements
+{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.heroTitle
+{
+	text-align: center;
+	color: white;
+	
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.heroText
+{
+	text-align: center;
+	color: white;
+
+	font-size: 15px;
+}
