@@ -122,6 +122,18 @@ a
 	grid-template-columns: repeat(auto-fill, minmax(300px, 560px));
 }
 
+.showreel
+{
+	width: 100%;
+	object-fit: fill;
+}
+
+.showreel iframe 
+{
+	width: 1120px;
+	height: 630px;
+}
+
 iframe
 {
 	height: 25rem;
