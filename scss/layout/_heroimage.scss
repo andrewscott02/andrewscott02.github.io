@@ -6,7 +6,7 @@
 {
     // height: 100vh; //Temp, remove later
     padding: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../Images/Banner_edited.jpg") no-repeat;
+    //background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../Images/Banner_edited.jpg") no-repeat;
 
     background-position: 85% center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 
     &:hover
     {
-        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../Images/Banner_edited.jpg") no-repeat;
+        //background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../Images/Banner_edited.jpg") no-repeat;
         background-position: 85% center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -36,7 +36,7 @@
 
 #HeroImage
 {
-    background-color: #d470cc;
+    background-color: #000000;
 }
 
 .heroElements
@@ -64,6 +64,7 @@
     height: 100%;
     top: 100%;
 
+    video,
     iframe
     {
         filter: brightness(0.6) blur(3px) contrast(80%);
