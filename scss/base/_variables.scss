@@ -1,0 +1,47 @@
+/* ========================================================== */
+/* Variables */
+/* ========================================================== */
+
+//Breakpoints
+$brk-h-xs       :"screen and (max-height: 395px)";
+$brk-h-s        :"screen and (max-height: 576px)";
+
+$brk-s          :"screen and (min-width: 576px)";
+$brk-m          :"screen and (min-width: 768px)";
+$brk-l          :"screen and (min-width: 992px)";
+$brk-xl         :"screen and (min-width: 1200px), (orientation:landscape)";
+$brk-xxl        :"screen and (min-width: 1600px)";
+
+$color-primary: #1e4866;
+$color-primary-desat: desaturate($color-primary, 20%);
+$color-primary-light: lighten($color-primary, 10%);
+$color-primary-light-desat: desaturate($color-primary-light, 20%);
+$color-primary-dark: darken($color-primary, 10%);
+$color-primary-dark-desat: desaturate($color-primary-dark, 20%);
+
+$color-secondary: #3a4146;
+
+$color-tertiary: #c76e25;
+$color-tertiary-desat: desaturate($color-tertiary, 20%);
+$color-tertiary-light: lighten($color-tertiary, 10%);
+$color-tertiary-dark: darken($color-tertiary, 10%);
+$color-tertiary-dark-desat: desaturate($color-tertiary-dark, 20%);
+
+$color-text-light: white;
+$color-text-dark: black;
+
+$color-form: rgb(173, 173, 173);
+$color-form-hover: rgb(236, 236, 236);
+
+//Shadows
+$color-shadow               : rgba(1, 0, 30, 0.8);
+$color-shadow-transparent   : rgba(0, 11, 30, 0.4);
+$color-border               : black;
+$btn-shadow                 : 1px 1px 2px $color-shadow;
+$btn-shadow-inset           : inset 0 0 20px 10px rgba($color-shadow, 0.2);
+$btn-shadow-inset-small     : inset 0 0 6px 4px rgba($color-shadow, 0.2);
+$shadow-none                : 0 0 0 0 $color-shadow-transparent;
+
+//Glows
+$profile-glow             : 0 0 15px 10px $color-primary-light;
+$btn-glow                 : 0 0 10px $color-tertiary;

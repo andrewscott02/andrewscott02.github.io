@@ -1,0 +1,166 @@
+/* ===================================== 
+   About Me
+======================================== */
+
+//Grid Layout
+
+#About
+{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 15px;
+    grid-template-areas:
+        "about-header"
+        "about-title"
+        "about-intro"
+        "achievements"
+        "skills";
+
+    @media #{$brk-l}
+    {
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas:
+            "about-header about-header"
+            "about-intro skills"
+            "achievements achievements";
+    }
+}
+
+.about-header
+{
+    grid-area: about-header;
+}
+
+.about-intro
+{
+    grid-area: about-intro;
+}
+
+#Achievements
+{
+    grid-area: achievements;
+}
+
+#Skills
+{
+    grid-area: skills;
+}
+
+//Styling
+
+#About
+{
+    text-align: center;
+}
+
+.about-intro
+{
+    text-align: left;
+}
+
+#Achievements
+{
+    text-align: center;
+}
+
+.achievements
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 15px;
+
+    @media #{$brk-l}
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.achievement
+{
+    @include card;
+
+    img
+    {
+        max-width: 15%;
+    }
+}
+
+#Skills
+{
+    @include card;
+    height: fit-content;
+    padding: 10px 40px 30px;
+    margin: 0 auto;
+}
+
+.skill
+{
+    display: table;
+    position: relative;
+    margin: auto;
+    list-style: none;
+    font-size: 18px;
+}
+
+.top-skill
+{
+    font-weight: 700;
+    font-size: 1.1em;
+
+    &:hover
+    {
+        color: lighten($color-primary, 40%);
+        text-shadow: 0 0 3px lighten($color-primary, 40%),
+                    0 0 10px lighten($color-primary, 30%),
+                    0 0 20px lighten($color-primary, 20%),
+                    0 0 30px lighten($color-primary, 10%);
+
+        .skill-overlay-container
+        {
+            display: flex;
+        }
+    }
+}
+
+// .top-skill::after
+// {
+//     content: "*";
+//     margin-left: 5px;
+    
+//     font-weight: 700;
+//     font-size: 1.1em;
+// }
+
+.skill-overlay-container
+{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    width: 35vw;
+    max-width: 500px;
+    bottom: -75%;
+    left: 100%;
+
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+    background-color: $color-primary-desat;
+
+    color:white;
+    font-size: 0.6em;
+    text-align: center;
+    text-shadow: none;
+
+    @media #{$brk-l}
+    {
+        left: initial;
+        right: 100%;
+        
+        font-size: 1em;
+    }
+}

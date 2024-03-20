@@ -1,0 +1,94 @@
+/* ===================================== 
+   Grid Layout
+======================================== */
+
+// .container
+// {
+//     height: 100vh;
+//     display: grid;
+//     grid-template-columns: minmax(75px, 1fr) minmax(200px, 9fr);
+//     grid-template-rows: auto minmax(400px, 5fr);
+//     grid-auto-rows: auto;
+//     grid-gap: 2px;
+//     grid-template-areas:
+//         "header hero-image"
+//         "nav hero-image"
+//         "nav main"
+//         "nav aside" 
+//         "footer footer";
+// }
+
+.container
+{
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto minmax(400px, 5fr);
+    grid-auto-rows: auto;
+    grid-gap: 2px;
+    grid-template-areas:
+        "header nav-mobile"
+        "nav nav"
+        "hero-image hero-image"
+        "main main"
+        "aside aside" 
+        "footer footer";
+
+    @media #{$brk-m}
+    {
+        grid-template-columns: minmax(125px, 1fr) minmax(200px, 9fr);
+        grid-template-rows: auto minmax(400px, 5fr);
+        grid-template-areas:
+            "header hero-image"
+            "nav hero-image"
+            "nav main"
+            "nav aside" 
+            "footer footer";
+
+        @media #{$brk-h-s}
+        {
+            grid-template-rows: 50px 5fr;
+            grid-template-areas:
+            "header hero-image"
+            "nav hero-image"
+            "nav main"
+            "nav aside" 
+            "nav footer";
+        }
+    }
+}
+
+header
+{
+    grid-area: header;
+}
+
+#NavigationMobile
+{
+    grid-area: nav-mobile;
+}
+
+nav
+{
+    grid-area: nav;
+}
+
+#HeroImage
+{
+    grid-area: hero-image;
+}
+
+main
+{
+    grid-area: main;
+}
+
+aside
+{
+    grid-area: aside;
+}
+
+footer
+{
+    grid-area: footer;
+}

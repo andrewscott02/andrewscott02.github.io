@@ -1,0 +1,107 @@
+/* ===================================== 
+   Contact Form
+======================================== */
+
+//Grid Layout
+
+#Contact fieldset
+{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 5px;
+    grid-template-areas:
+        "form-name"
+        "form-email"
+        "form-subject"
+        "form-message";
+
+    @media #{$brk-l}
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "form-name form-email"
+            "form-subject form-subject"
+            "form-message form-message";
+    }
+}
+
+.form-name
+{
+    grid-area: form-name;
+}
+
+.form-email
+{
+    grid-area: form-email;
+}
+
+.form-subject
+{
+    grid-area: form-subject;
+}
+
+.form-message
+{
+    grid-area: form-message;
+}
+
+//Styling
+
+fieldset
+{
+    border: 0;
+}
+
+aside
+{
+    background-color: $color-primary-desat; 
+}
+
+[class^="form-"], [class*=" form-"]
+{
+    width: 100%;
+
+    input
+    {
+        font-size: 1.2em;
+        width: 100%;
+        height: 2em;
+    }
+}
+
+.form-message
+{
+    input
+    {
+        height: 6em;
+    }
+}
+
+.form-sbmt
+{
+    width: 100%;
+
+    button
+    {
+        display: block;
+        margin: auto;
+        padding: 5px 15px;
+
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+}
+
+textarea, input
+{
+    background-color: $color-form;
+}
+
+textarea:focus, input:focus
+{
+    //background-color: lighten($color-tertiary, 40%);
+    background-color: $color-form-hover;
+    outline: 0;
+}

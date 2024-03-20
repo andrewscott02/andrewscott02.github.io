@@ -1,0 +1,39 @@
+/* ===================================== 
+   Generic Styles for Breakpoints
+======================================== */
+
+.brk-s-l
+{
+    @media #{$brk-s}
+    {
+        display: none;
+    }
+}
+
+.brk-s-g
+{
+    display: none;
+
+    @media #{$brk-s}
+    {
+        display: initial;
+    }
+}
+
+.brk-m-l
+{
+    @media #{$brk-m}
+    {
+        display: none;
+    }
+}
+
+.brk-m-g
+{
+    display: none;
+
+    @media #{$brk-m}
+    {
+        display: initial;
+    }
+}

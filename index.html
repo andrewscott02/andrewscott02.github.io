@@ -1,116 +1,151 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/application.css">
 
-    <head>
-        <title>Homepage</title>
-        <meta charset = "UTF-8">
-        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
 
-        <link rel = "stylesheet" href = "style.css">
-
-        <link rel = "homepage" href = "index.html">
-        <link rel = "games" href = "games.html">
-        <link rel = "projects" href = "projects.html">
-        <link rel = "aboutme" href = "about.html">
-        <link rel = "awards" href = "awards.html">
-    </head>
-    
-    <body>
-        <header class_"header">
-            <div class = "row" style = "background-color: #121212">
-                <div class = "column">
-                    <nav class = "navbar">
-                        <ul style = "background-color: #121212">
-                            <li><a href="index.html">
-                                <div class = "mediumicon">
-                                    <img src="Images/Banner Character.jpg">
-                                </div>
-                            </a></li>
-                            <li><a href="index.html" style = "font-size: 70px; margin: 10px;">Andrew Scott</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class = "column">
-                    <nav class = "socialnavbar">
-                        <ul style = "background-color: #121212">
-                            <li><a href="https://www.linkedin.com/in/andrew-scott-8ba2b518a">
-                                <div class = "smallicon">
-                                    <img src="https://static.wixstatic.com/media/11062b_9e78da3320da497ab23ce28d738d388a~mv2.png/v1/fill/w_26,h_26,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LinkedIn.png">
-                                </div>
-                            </a></li>
-                            <li><a href="mailto:andrewscott02@icloud.com" style = "margin: 15px;">andrewscott02@icloud.com</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-            <nav class="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="games.html">Games</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="awards.html">Awards</a></li>
-                </ul>
-            </nav>
+    <title>Andrew Scott - Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <header id="Header">
+            <a href="index.html" class="profilepic-lnk">
+                <img class="profilepic-img" src="Images\Banner Character.jpg">
+            </a>
         </header>
-    </body>
-
-    <body>
-
-        <!-- Main hero image container, includes background image -->
-		<div class="heroImage">
-			<!-- Hero image elements -->
-			<div class="heroElements">
-				<h1 class = "heroTitle">
-					Andrew Scott
-				</h1>
-
-				<p class = "heroText">
-					Games Programmer
-				</p>
-
-				<a href="about.html" class="button">About Me</a>
-			</div>
-		</div>
-
-        <h1 align="center"> Showreel</h1>
-
-        <div class = "showreel">
-            <div align = "center">
-                <iframe width = "560" height = "315" src="https://www.youtube.com/embed/bBJG4Cf6Yg8?si=IIOVcIAw24Y9OFXB" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div id="NavigationMobile" class="brk-m-l">
+            <a href="#" class="nav-btn-mobile">
+                <div class="nav-btn-mobile-inner"></div>
+            </a>
+        </div>
+        <nav id="Navigation" class="brk-m-g">
+            <a href="about.html#About" class="nav-btn">About Me</a>
+            <hr>
+            <a href="index.html#Games" class="nav-btn">Portfolio</a>
+            <!-- <a href="index.html#Projects" class="nav-btn">Projects</a> -->
+            <a href="code.html#CodeSnippets" class="nav-btn">Code Snippets</a>
+            <hr>
+            <a href="scs.html#SCS" class="nav-btn">SCS Scheme</a>
+            <hr>
+            <a href="index.html#Contact" class="nav-btn">Contact</a>
+            <hr>
+            <div class="socials">
+                <a target="_blank" href="https://github.com/andrewscott02" class="social-btn icon-github"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/andrew-scott-8ba2b518a/" class="social-btn icon-linkedin"></a>
+                <a target="_blank" href="https://andrewjscott02.itch.io/" class="social-btn icon-itch-dot-io">
+                </a>
+            </a>
+        </nav>
+        <div id="HeroImage">
+            <div class="heroElements">
+                <!-- Implement Video Later and remove view height in #HeroImage-->
+                <!-- <div class="background-video">
+                    <iframe src="https://streamable.com/e/gd6a05?autoplay=1&muted=1&nocontrols=1"></iframe>
+                </div> -->
+                <div class="hero-text">
+                    <h1>My Name is Andrew Scott</h1>
+                    <p>I'm a Games Programmer and Web Developer</p>
+                </div>
             </div>
         </div>
 
-        <h1 align="center"> Featured Projects</h1>
-
-        <div class = "videogallery">
-            <!--Enfabler-->
-            <iframe width = "560" height = "315" src="https://www.youtube.com/embed/-6_DhxBhzdw?si=B92WzvfwEEUuz4LB" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-            <!--Corruption of Arcana-->
-            <iframe width = "560" height = "315" src="https://www.youtube.com/embed/r8M4nrsPlGo?si=7DKvqGvw6CWM9_Yy" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-            <!--Godsent-->
-            <div class = "thumbnail">
-                <img src="https://img.itch.zone/aW1hZ2UvMTA1MDY4Ny82MDA5NzI1LnBuZw==/347x500/hRWppU.png">
+        <main id="Main">
+            <div id="Games">
+                <h2>My Games</h2>
+                <div class="project-collection">
+                    <a class="project" target="_blank" href="https://andrewjscott02.itch.io/enfabler">
+                        <img src="Images\Enfabler.png">
+                        <h3>Enfabler</h3>
+                        <p>Explore dungeons, defeat monsters and thwart villains to earn your place as a hero. Will you answer the call?</p>
+                        <div class="btn inline">View Project</div>
+                    </a>
+                    <a class="project" target="_blank" href="https://moonsoon-games.itch.io/corruption-of-arcana-reshuffled">
+                        <img src="Images\CoA.png">
+                        <h3>Corruption of Arcana</h3>
+                        <p>Gather your cards, weapons and potions because the corruption is growing stronger. Push into the heart of the realm and find the source of this terrible plague. </p>
+                        <div class="btn inline">View Project</div>
+                    </a>
+                    <a class="project" target="_blank" href="https://andrewjscott02.itch.io/creak">
+                        <img src="Images\Creak.png">
+                        <h3>Creak</h3>
+                        <p>Creak is a 2D platformer where you can only see through sound. Collide your character with obstacles to create sound waves that allow you to see.</p>
+                        <div class="btn inline">View Project</div>
+                    </a>
+                    <a class="project" target="_blank" href="https://andrewjscott02.itch.io/overkill">
+                        <img src="Images\Overkill.png">
+                        <h3>Overkill</h3>
+                        <p>Overkill is a turn-based game inspired by the settings of Doom and XCOM. But unlike those games, you play as the villains. Lead a raiding party of demons to take over the Earth for the forces of evil in this turn-based RPG with a twist.</p>
+                        <div class="btn inline">View Project</div>
+                    </a>
+                    <a class="project" target="_blank" href="https://eggchanted.itch.io/godsent">
+                        <img src="Images\Godsent.png">
+                        <h3>Godsent</h3>
+                        <p>You are a nun granted powers by God to defeat the Seven Princes of Hell but you must decide how far you are willing to suffer for your faith or whether you will give into the allure of power.</p>
+                        <div class="btn inline">View Project</div>
+                    </a>
+                </div>
             </div>
-
-            <!--Creak-->
-            <div class = "thumbnail">
-                <img src="https://img.itch.zone/aW1nLzE0MjcwODQzLnBuZw==/315x250%23c/tEd6jy.png">
+            <div id="Projects">
+                <h2 class="comingsoon">My Projects</h2>
+                <div class="project-collection">
+                    <a class="project" href="#">
+                        <img src="Images\GraphicsImages.png">
+                        <h3>Project Title</h3>
+                        <p>Project description goes here</p>
+                        <div class="btn inline">View Project</div>
+                    </a>
+                    <a class="project" href="#">
+                        <img src="Images\GraphicsImages.png">
+                        <h3>Project Title</h3>
+                        <p>Project description goes here</p>
+                        <div class="btn inline">View Project</div>
+                    </a>
+                    <a class="project" href="#">
+                        <img src="Images\GraphicsImages.png">
+                        <h3>Project Title</h3>
+                        <p>Project description goes here</p>
+                        <div class="btn inline">View Project</div>
+                    </a>
+                </div>
             </div>
-
-            <!--TTRPG Controller-->
-            <iframe width = "560" height = "315" src="https://www.youtube.com/embed/TVrhjMUS844?si=dnmwZHIdKx-2eYxX" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-            <!--TTRPG Combat-->
-            <iframe width = "560" height = "315" src="https://www.youtube.com/embed/lg1MPgQ8eVY?si=67sKKbEN5KVo2_GK" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-            <!--VFX Programming-->
-            <div class = "thumbnail">
-                <img src="Images/GraphicsImages.png">
+        </main>
+        <aside id="Aside">
+            <div id="Contact">
+                <form action="index.html" method="post">
+                    <h3 class="comingsoon">Get In Touch</h3>
+                    <fieldset>
+                        <div class="form-name">
+                            <label for="name" class="required">Your Name:</label>
+                            <input type="text" id="name" name="user_name">
+                        </div>
+                        <div class="form-email">
+                            <label for="email" class="required">Email:</label>
+                            <input type="email" id="email" name="user_email">
+                        </div>
+                        <div class="form-subject">
+                            <label for="subject" class="required">Subject:</label>
+                            <input type="subject" id="subject" name="user_subject">
+                        </div>
+                        <div class="form-message">
+                            <label for="message" class="required">Message:</label>
+                            <input type="message" id="message" name="user_message">
+                        </div>
+                    </fieldset>
+                    <div class="form-sbmt">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
             </div>
-        </div>
-    </body>
-
+        </aside>
+        <footer id="Footer">
+            <small>Made by Andrew Scott &copy;</small>
+        </footer>
+    </div>
+</body>
 </html>

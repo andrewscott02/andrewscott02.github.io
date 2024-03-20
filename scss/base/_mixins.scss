@@ -1,0 +1,114 @@
+/* ===================================== 
+   Mixins
+======================================== */
+
+@mixin message($content:" *COMING SOON*", $col: red)
+{
+    content: $content;
+    color: $col;
+    font-size: 0.65em;
+}
+
+//Button - Unused
+@mixin btnstyle($bkgrndCol: $color-tertiary,
+                $angle: 130deg,
+                $boxShadow: $btn-shadow,
+                $insetShadow: $btn-shadow-inset)
+{
+    background-image: linear-gradient($angle,
+                                        rgba(darken($bkgrndCol, 10%), 0.2) 0%,
+                                        lighten($bkgrndCol, 15%) 25%,
+                                        rgba(darken($bkgrndCol, 5%), 0.2) 50%,
+                                        rgba(darken($bkgrndCol, 15%), 0.2));
+    background-color: $bkgrndCol;
+
+    box-shadow: $insetShadow,
+                    $boxShadow;
+}
+
+@mixin card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: darken($color-primary-desat, 8%);
+    box-shadow: $btn-shadow-inset;
+    padding: 10px;
+    border-radius: 5px;
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    h3, p
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    img
+    {
+        border-radius: 10px;
+    }
+
+    &:hover
+    {
+        transition: 0.5s ease;
+        background-color: $color-tertiary-dark-desat;
+        box-shadow: $btn-glow;
+
+        .btn
+        {
+            background-color: $color-primary;
+            color: lighten($color-tertiary, 20%);
+            text-shadow: 0 0 3px lighten($color-tertiary, 20%),
+                        0 0 10px lighten($color-tertiary, 10%),
+                        0 0 20px $color-tertiary,
+                        0 0 30px $color-tertiary;
+        }
+    }
+}
+
+@mixin navbutton
+{
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 12px;
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 1.1em;
+    font-weight: 700;
+
+    &:hover
+    {
+        //color: black;
+        background-color: $color-primary;
+    }
+}
+
+@mixin navbutton-mobile($bckgrndcol, $col)
+{
+    @include navbutton();
+    float: right;
+    width: 60px;
+    height: 48px;
+    padding: 10px;
+
+    background-color: $bckgrndcol;
+
+    .nav-btn-mobile-inner
+    {
+        border-top: solid 4px $col;
+        border-bottom: solid 4px $col;
+    
+        &::before
+        {
+            background: $col;
+        }
+    }
+}
