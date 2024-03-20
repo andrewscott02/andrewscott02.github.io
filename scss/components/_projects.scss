@@ -1,0 +1,33 @@
+/* ===================================== 
+   Projects
+======================================== */
+
+.project-collection
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 15px;
+
+    @media #{$brk-xl}
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media #{$brk-xxl}
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.project
+{
+    @include card;
+
+    img
+    {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}

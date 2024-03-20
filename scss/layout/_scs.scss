@@ -1,0 +1,39 @@
+/* ===================================== 
+   SCS Scheme
+======================================== */
+
+.scs
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 15px;
+
+    @media #{$brk-xl}
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media #{$brk-xxl}
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.scs-element
+{
+    @include card;
+}
+
+.scs-element:nth-child(3)
+{
+    @media #{$brk-xl}
+    {
+        grid-column: 1/3;
+    }
+
+    @media #{$brk-xxl}
+    {
+        grid-column: initial;    
+    }
+}

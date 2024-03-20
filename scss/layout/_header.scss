@@ -1,0 +1,79 @@
+/* ========================================================== */
+/* Header */
+/* ========================================================== */
+
+#Header
+{
+    z-index: 1;
+    padding: 0.15em;
+    border: 0;
+
+    max-height: 100%;
+
+    @media #{$brk-m}
+    {
+        position: sticky;
+        top:0vh;
+        align-self: start;
+    }
+
+    @media #{$brk-h-xs}
+    {
+        position: relative;
+    }
+}
+
+header
+{
+    background-color: $color-secondary;
+
+    @media #{$brk-m}
+    {
+        background-color: transparent;
+        background-image: linear-gradient(180deg, $color-primary, transparent);
+    }
+}
+
+.profilepic-lnk
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 75px;
+
+    margin: auto;
+
+    &:hover .profilepic-img
+    {
+        transition: 0.5s ease;
+        box-shadow: $profile-glow;
+    }
+
+    @media #{$brk-h-s}
+    {
+        min-height: 0;
+    }
+}
+
+.profilepic-img
+{
+    display: block;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 100px;
+    float: left;
+    height: auto;
+
+    margin: auto;
+
+    @media #{$brk-h-s}
+    {
+        max-width: 50px !important;
+    }
+
+    @media #{$brk-m}
+    {
+        float: initial;
+        max-width: 150px;
+    }
+}

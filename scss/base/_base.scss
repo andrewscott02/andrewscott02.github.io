@@ -1,0 +1,63 @@
+/* ===================================== 
+   Page Styles
+======================================== */
+
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+    background-image: linear-gradient(180deg, $color-secondary 25%, black);
+	font-size: 1.2em;
+	font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.container > *
+{
+    color: #fff;
+    text-shadow: 0 2px 0 rgba(110,133,156,0.12);
+    padding: 0.85em;
+    border: 0;
+}
+
+main
+{
+    background-color: darken($color-primary-desat, 15%);
+
+    // & > div:nth-child(even)
+    // {
+    //     border-radius: 10px;
+    //     background-color: darken($color-primary-desat, 8%);
+    // }
+}
+
+footer
+{
+    background-color: $color-secondary;
+}
+
+.comingsoon::after
+{
+    @include message;
+}
+
+.new::after
+{
+    @include message(" *NEW*")
+}
+
+.external-link::after
+{
+    content: " \21D7";
+    //margin-left: 10px;
+}
+
+.inline
+{
+    display: inline;
+}
