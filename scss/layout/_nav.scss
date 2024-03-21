@@ -38,6 +38,7 @@
 
 .nav-btn
 {
+    transition: 0.25s ease;
     @include navbutton();
 
     &:hover
@@ -51,6 +52,7 @@
 
 .nav-btn-mobile
 {
+    transition: 0.25s ease;
     @include navbutton-mobile(lighten($color-secondary, 10%), white);
 
     &:hover
@@ -99,20 +101,40 @@
     text-decoration: none;
 }
 
+.social-btn
+{
+    &.icon-linkedin:before,
+    &.icon-itch-dot-io:before,
+    &.icon-github:before
+    {
+        transition: 0.25s ease;
+    }
+}
+
 .social-btn:hover
 {
     &.icon-linkedin:before
     {
-        color: #005baf;
+        color: rgb(65, 159, 247);
+        text-shadow: 0 0 3px lighten($color-primary, 40%),
+                    0 0 10px lighten($color-primary, 30%),
+                    0 0 20px lighten($color-primary, 20%),
+                    0 0 30px lighten($color-primary, 10%);
     }
 
     &.icon-itch-dot-io:before
     {
-        color: rgb(185, 14, 14);
+        color: #ff9090;
+        text-shadow: 0 0 3px lighten($color-tertiary, 10%),
+                    0 0 10px $color-tertiary,
+                    0 0 20px $color-tertiary;
     }
 
     &.icon-github:before
     {
-        color: rgb(158, 158, 158);
+        color: rgb(255, 255, 255);
+        text-shadow: 0 0 3px white,
+                    0 0 10px white,
+                    0 0 20px white;
     }
 }
