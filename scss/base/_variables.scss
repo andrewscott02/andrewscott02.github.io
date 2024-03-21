@@ -16,7 +16,11 @@ $brk-xxl        :"screen and (min-width: 1600px)";
 $med-has-pointer :"(not (pointer:none)) and (not (pointer:coarse))";
 
 $color-primary: #1e4866;
+// $color-primary: #1e6644;
+// $color-primary: #1e6166;
+
 $color-primary-desat: desaturate($color-primary, 20%);
+
 $color-primary-light: lighten($color-primary, 10%);
 $color-primary-light-desat: desaturate($color-primary-light, 20%);
 $color-primary-dark: darken($color-primary, 10%);
@@ -24,8 +28,12 @@ $color-primary-dark-desat: desaturate($color-primary-dark, 20%);
 
 $color-secondary: #3a4146;
 
-$color-tertiary: #c76e25;
-$color-tertiary-desat: desaturate($color-tertiary, 20%);
+// $color-tertiary: #c76e25;
+// $color-tertiary-desat: desaturate($color-tertiary, 20%);
+$color-tertiary-raw: complement($color-primary);
+$color-tertiary-desat: lighten($color-tertiary-raw, 20%);
+$color-tertiary: saturate($color-tertiary-desat, 20%);
+
 $color-tertiary-light: lighten($color-tertiary, 10%);
 $color-tertiary-dark: darken($color-tertiary, 10%);
 $color-tertiary-dark-desat: desaturate($color-tertiary-dark, 20%);
