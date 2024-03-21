@@ -13,23 +13,26 @@
     background-size: cover;
     position: relative;
 
-    &:hover
+    @media #{$brk-m}
     {
-        //background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../Images/Banner_edited.jpg") no-repeat;
-        background-position: 85% center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-
-        .hero-text
+        &:hover
         {
-            opacity: 0.2;
-        }
+            //background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("../Images/Banner_edited.jpg") no-repeat;
+            background-position: 85% center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
 
-        video,
-        iframe
-        {
-            filter: brightness(1) blur(0) contrast(100%);
+            .hero-text
+            {
+                opacity: 0.2;
+            }
+
+            video,
+            iframe
+            {
+                filter: brightness(1) blur(0) contrast(100%);
+            }
         }
     }
 }
@@ -64,11 +67,18 @@
     height: 100%;
     top: 100%;
 
+    @media #{$brk-m}
+    {
+        video,
+        iframe
+        {
+            filter: brightness(0.6) blur(3px) contrast(80%);
+        }
+    }
+
     video,
     iframe
     {
-        filter: brightness(0.6) blur(3px) contrast(80%);
-
         position: absolute;
         top: 50%;
         left: 50%;
@@ -80,11 +90,15 @@
 
 video.background-video
 {
-    filter: brightness(0.6) blur(3px) contrast(80%);
+    @media #{$brk-m}
+    {
+        filter: brightness(0.6) blur(3px) contrast(80%);
+    }
 }
 
 .hero-text
 {
+    display: none;
     position: fixed;
     z-index: 1;
     top: 100%;
@@ -107,5 +121,10 @@ video.background-video
     {
         position: relative;
         top: 40%;
+    }
+
+    @media #{$brk-m}
+    {
+        display: inherit;
     }
 }
