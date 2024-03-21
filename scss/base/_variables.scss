@@ -3,6 +3,7 @@
 /* ========================================================== */
 
 //Breakpoints
+
 $brk-h-xs       :"screen and (max-height: 395px)";
 $brk-h-s        :"screen and (max-height: 576px)";
 
@@ -11,6 +12,8 @@ $brk-m          :"screen and (min-width: 768px)";
 $brk-l          :"screen and (min-width: 992px)";
 $brk-xl         :"screen and (min-width: 1200px), (orientation:landscape)";
 $brk-xxl        :"screen and (min-width: 1600px)";
+
+$med-has-pointer :"(not (pointer:none)) and (not (pointer:coarse))";
 
 $color-primary: #1e4866;
 $color-primary-desat: desaturate($color-primary, 20%);

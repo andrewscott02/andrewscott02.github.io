@@ -4,7 +4,7 @@
 
 #HeroImage
 {
-    //height: 100%;
+    //height: 30vh;
     padding: 0;
     //background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../Images/Banner_edited.jpg") no-repeat;
 
@@ -13,8 +13,7 @@
     background-size: cover;
     position: relative;
 
-    @media #{$brk-m},
-    not (orientation: landscape)
+    @media #{$med-has-pointer}
     {
         height: 100vh;
         &:hover
@@ -74,12 +73,15 @@
     height: 100%;
     top: 100%;
 
-    @media #{$brk-m},
-    not (orientation: landscape)
+    @media #{$med-has-pointer}
     {
         video,
         iframe
         {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
             filter: brightness(0.6) blur(3px) contrast(80%);
         }
     }
@@ -87,10 +89,8 @@
     video,
     iframe
     {
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
 
         position: absolute;
         top: 50%;
@@ -103,8 +103,7 @@
 
 video.background-video
 {
-    @media #{$brk-m},
-    not (orientation: landscape)
+    @media #{$med-has-pointer}
     {
         filter: brightness(0.6) blur(3px) contrast(80%);
     }
@@ -137,8 +136,7 @@ video.background-video
         top: 40%;
     }
 
-    @media #{$brk-m},
-    not (orientation: landscape)
+    @media #{$med-has-pointer}
     {
         display: inherit;
     }
