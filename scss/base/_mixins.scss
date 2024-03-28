@@ -26,18 +26,8 @@
                     $boxShadow;
 }
 
-@mixin card
+@mixin textStyling
 {
-    transition: 0.5s ease;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    background-color: darken($color-primary-desat, 8%);
-    box-shadow: $btn-shadow-inset;
-    padding: 10px;
-    border-radius: 5px;
-
     color: white;
     text-decoration: none;
     text-align: center;
@@ -47,6 +37,20 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
+}
+
+@mixin card ($hover: true)
+{
+    @include textStyling;
+    transition: 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: darken($color-primary-desat, 8%);
+    box-shadow: $btn-shadow-inset;
+    padding: 10px;
+    border-radius: 5px;
 
     .project-media-container
     {
@@ -58,19 +62,22 @@
         transition: 0.25s ease;
     }
 
-    &:hover
+    @if ($hover)
     {
-        background-color: $color-tertiary-dark-desat;
-        box-shadow: $btn-glow;
-
-        .btn
+        &:hover
         {
-            background-color: $color-primary;
-            color: lighten($color-tertiary, 20%);
-            text-shadow: 0 0 3px lighten($color-tertiary, 20%),
-                        0 0 10px lighten($color-tertiary, 10%),
-                        0 0 20px $color-tertiary,
-                        0 0 30px $color-tertiary;
+            background-color: $color-tertiary-dark-desat;
+            box-shadow: $btn-glow;
+
+            .btn
+            {
+                background-color: $color-primary;
+                color: lighten($color-tertiary, 20%);
+                text-shadow: 0 0 3px lighten($color-tertiary, 20%),
+                            0 0 10px lighten($color-tertiary, 10%),
+                            0 0 20px $color-tertiary,
+                            0 0 30px $color-tertiary;
+            }
         }
     }
 }
@@ -80,7 +87,7 @@
     display: block;
     width: 100%;
     padding: 5px 0;
-    border-radius: 12px;
+    border-radius: 4px;
 
     color: white;
     text-decoration: none;
@@ -103,6 +110,7 @@
     width: 60px;
     height: 48px;
     padding: 10px;
+    margin: 5px;
 
     background-color: $bckgrndcol;
 

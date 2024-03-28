@@ -29,6 +29,11 @@ main
 {
     background-color: darken($color-primary-desat, 15%);
 
+    @media #{$brk-m}
+    {
+        min-height: initial;
+    }
+
     // & > div:nth-child(even)
     // {
     //     border-radius: 10px;

@@ -25,12 +25,12 @@
 
 #NavigationMobile
 {
-    z-index: 1;
+    z-index: 3000;
     position: sticky;
     top: 0;
     align-self: start;
     
-    padding: 0.15em;
+    padding: 0;
     border: 0;
 
     //background-color: $color-secondary;
@@ -38,7 +38,7 @@
 
 .nav-btn
 {
-    transition: 0.25s ease;
+    transition: 0.08s ease;
     @include navbutton();
 
     &:hover
@@ -52,7 +52,9 @@
 
 .nav-btn-mobile
 {
-    transition: 0.25s ease;
+    position: relative;
+    z-index: 3000;
+    transition: 0.08s ease;
     @include navbutton-mobile(lighten($color-secondary, 10%), white);
 
     &:hover
@@ -116,9 +118,8 @@
     &.icon-linkedin:before
     {
         color: rgb(65, 159, 247);
-        text-shadow: 0 0 3px lighten($color-primary, 40%),
-                    0 0 10px lighten($color-primary, 30%),
-                    0 0 20px lighten($color-primary, 20%),
+        text-shadow: 0 0 3px lighten($color-primary, 30%),
+                    0 0 10px lighten($color-primary, 20%),
                     0 0 30px lighten($color-primary, 10%);
     }
 

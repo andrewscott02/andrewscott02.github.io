@@ -37,3 +37,39 @@
         display: initial;
     }
 }
+
+.brk-xl-l
+{
+    @media #{$brk-xl}
+    {
+        display: none;
+    }
+}
+
+.brk-xl-g
+{
+    display: none;
+
+    @media #{$brk-xl}
+    {
+        display: initial;
+    }
+}
+
+.brk-xlt-l
+{
+    @media #{$brk-xl-true}
+    {
+        display: none;
+    }
+}
+
+.brk-xlt-g
+{
+    display: none;
+
+    @media #{$brk-xl-true}
+    {
+        display: inherit;
+    }
+}

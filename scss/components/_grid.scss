@@ -18,8 +18,17 @@
 //         "footer footer";
 // }
 
+// #MainContainer.sideMenuOpen
+// {
+//     // grid-template-columns: 100vw;
+//     // grid-template-rows: 100vh;
+//     grid-template-areas:
+//         "nav-mobile nav-mobile";
+// }
+
 .container
 {
+    min-height: 100vh;
     height: auto;
     display: grid;
     grid-template-columns: 2fr 1fr;

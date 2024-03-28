@@ -1,0 +1,66 @@
+/* ===================================== 
+   Side Menu
+======================================== */
+
+#SideMenu
+{
+    // display: none;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+
+    width: 100%;
+    height: 0;
+
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    overflow-x: clip;
+
+    // &.sideMenuOpen
+    // {
+    //     display: inherit;
+    // }
+}
+
+.sideMenu-container
+{
+    z-index: 200;
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    
+    padding: 0;
+    border: 0;
+    margin: 0;
+    
+    left: 100%;
+    transition: all ease 0.75s;
+
+    &.sideMenuOpen
+    {
+        left: 0;
+    }
+}
+
+.sideMenu
+{
+    background-color: $color-secondary-dark;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sideMenu-items
+{
+    z-index: 200;
+    position: sticky;
+    top: 150px;
+    align-self: start;
+    
+    padding: 0.15em;
+    border: 0;
+
+    width: 100%;
+}
