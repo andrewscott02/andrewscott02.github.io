@@ -1,0 +1,90 @@
+/* ===================================== 
+   Browser Game
+======================================== */
+
+#GameViewport
+{
+    margin: auto;
+    max-width: 600px;
+    width: 80%;
+    height: auto;
+
+    aspect-ratio: 16/20;
+
+    background-color: rgb(124, 124, 124);
+
+    .javascript-disabled
+    {
+        position: relative;
+        transform: translate(-50%, -50%);
+        left:50%;
+        top: 50%;
+
+        margin:auto;
+        text-align: center;
+
+        .javascript-disabled-text
+        {
+            margin:auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            padding: 0 30px;
+
+            text-align: center;
+        }
+    }
+}
+
+.requires-javascript
+{
+    width: 100%;
+    height: 100%;
+}
+
+.game-running
+{
+    .gameTitle
+    {
+        display: none;
+    }
+
+    #Board
+    {
+        display: inherit;
+    }
+}
+
+.gameTitle
+{
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    h3
+    {
+        position: relative;
+        transform: translate(-50%, -50%);
+        left:50%;
+        top: 50%;
+
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        padding: 0 30px;
+
+        text-align: center;
+    }
+}
+
+#Board
+{
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    //background-color: red;
+}

@@ -25,12 +25,12 @@
 
 #NavigationMobile
 {
-    z-index: 1;
+    z-index: 3000;
     position: sticky;
     top: 0;
     align-self: start;
     
-    padding: 0.15em;
+    padding: 0;
     border: 0;
 
     //background-color: $color-secondary;
@@ -52,6 +52,8 @@
 
 .nav-btn-mobile
 {
+    position: relative;
+    z-index: 3000;
     transition: 0.08s ease;
     @include navbutton-mobile(lighten($color-secondary, 10%), white);
 

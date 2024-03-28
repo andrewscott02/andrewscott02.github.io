@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="js/plugins/slick/slick.css">
+    <link rel="stylesheet" href="js/plugins/slick/slick-theme.css">
     <link rel="stylesheet" href="css/application.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -13,21 +17,44 @@
     <title>Andrew Scott - Portfolio</title>
 </head>
 <body>
-    <div class="container">
+    <div id="SideMenu" class="brk-m-l">
+        <div class="sideMenu-container">
+            <div class="sideMenu">
+                <div class="sideMenu-items">
+                    <a href="about.html#About" class="nav-btn">About Me</a>
+                    <hr>
+                    <a href="index.html#Games" class="nav-btn">Portfolio</a>
+                    <!-- <a href="index.html#Projects" class="nav-btn">Projects</a> -->
+                    <a href="code.html#CodeSnippets" class="nav-btn">Code Snippets</a>
+                    <hr>
+                    <a href="scs.html#SCS" class="nav-btn">SCS Scheme</a>
+                    <hr>
+                    <a href="index.html#Contact" class="nav-btn">Contact</a>
+                    <hr>
+                    <div class="socials">
+                        <a target="_blank" href="https://github.com/andrewscott02" class="social-btn icon-github"></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/andrew-scott-8ba2b518a/" class="social-btn icon-linkedin"></a>
+                        <a target="_blank" href="https://andrewjscott02.itch.io/" class="social-btn icon-itch-dot-io"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="MainContainer" class="container">
         <header id="Header">
             <a href="index.html" class="profilepic-lnk">
                 <img class="profilepic-img" src="Images\Banner Character.jpg">
             </a>
         </header>
         <div id="NavigationMobile" class="brk-m-l">
-            <a href="#" class="nav-btn-mobile">
+            <a href="" class="nav-btn-mobile">
                 <div class="nav-btn-mobile-inner"></div>
             </a>
         </div>
         <nav id="Navigation" class="brk-m-g">
             <a href="about.html#About" class="nav-btn">About Me</a>
             <hr>
-            <a href="index.html#Games" class="nav-btn">Porfolio</a>
+            <a href="index.html#Games" class="nav-btn">Portfolio</a>
             <!-- <a href="index.html#Projects" class="nav-btn">Projects</a> -->
             <a href="code.html#CodeSnippets" class="nav-btn">Code Snippets</a>
             <hr>
@@ -38,9 +65,8 @@
             <div class="socials">
                 <a target="_blank" href="https://github.com/andrewscott02" class="social-btn icon-github"></a>
                 <a target="_blank" href="https://www.linkedin.com/in/andrew-scott-8ba2b518a/" class="social-btn icon-linkedin"></a>
-                <a target="_blank" href="https://andrewjscott02.itch.io/" class="social-btn icon-itch-dot-io">
-                </a>
-            </a>
+                <a target="_blank" href="https://andrewjscott02.itch.io/" class="social-btn icon-itch-dot-io"></a>
+            </div>
         </nav>
         <div id="HeroImage">
             <div class="heroElements">
@@ -152,5 +178,10 @@
             <small>Made by Andrew Scott &copy;</small>
         </footer>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/plugins/slick/slick.min.js"></script>
+    <script src="js/plugins/fitvids/jquery.fitvids.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>

@@ -40,6 +40,7 @@
             </div>
         </div>
     </div>
+
     <div id="MainContainer" class="container">
         <header id="Header">
             <a href="index.html" class="profilepic-lnk">
@@ -83,42 +84,30 @@
         </div>
 
         <main id="Main">
-            <div id="SCS">
-                <h2>SCS Scheme</h2>
-                <div class="scs">
-                    <div class="scs-element">
-                        <h3>Scion Coalition Scheme Introduction</h3>
-                        <p>The Scion Coalition Scheme is an intensive, specially tailored training program run by Netmatters in order to give willing candidates the opportunity to enter the industry as web developers. Under the supervision of senior web developers, scions generally aim to complete training within six to nine months. The course is intensive and therefore the level of learning achieved is extensive in a short space of time.</p>
+            <div id="BrowserGame">
+                <h2>
+                    Java Jump
+                    <a class="btn" href="code.html#JavaJump">View Code</a>
+                </h2>
+                <div id="GameViewport">
+                    <div class="javascript-disabled">
+                        <h3 class="javascript-disabled-text">JavaScript is required to play</h3>
+                        <h3 class="javascript-disabled-text">Please enable JavaScript and refresh the browser</h3>
                     </div>
-                    <a class="scs-element" target="_blank" href="https://teamtreehouse.com/profiles/andrewscott14">
-                        <h3>Treehouse</h3>
-                        <p>Treehouse is an online learning community, featuring videos covering a number of topics from basic HTML to C# programming, iOS development, data analysis, and more. By completing courses users can earn points, allowing them to track their progress and see how much they've covered in certain areas.</p>
-                        <div class="btn inline">Total Score</div>
-                    </a>
-                    <div class="scs-element">
-                        <h3>About Netmatters</h3>
-                        <p>
-                            Established in 2008
-                            <br>
-                            Norfolk's leading technology company
-                            <br>
-                            Winner of the Princess Royal Training Award
-                            <br>
-                            Winner of EDP Skills of Tomorrow Award
-                            <br>
-                            80+ staff, 2 locations across Norfolk
-                            <br>
-                            Digital Marketing, Website & Software development & IT Support
-                            <br>
-                            Broad spectrum of clients, working nationwide
-                            <br>
-                            Operate to strict company values
-                        </p>
+                    
+                    <div class="requires-javascript">
+                        <div class="gameTitle">
+                            <h3>Click or Tap to Play</h3>
+                        </div>
+        
+                        <canvas id="Board">
+        
+                        </canvas>
                     </div>
                 </div>
             </div>
-        </main>
 
+        </main>
         <footer id="Footer">
             <small>Made by Andrew Scott &copy;</small>
         </footer>
@@ -128,5 +117,6 @@
     <script src="js/plugins/slick/slick.min.js"></script>
     <script src="js/plugins/fitvids/jquery.fitvids.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/browsergame.js"></script>
 </body>
 </html>

@@ -1,0 +1,151 @@
+/* ===================================== 
+   Carousel
+======================================== */
+
+#Featured
+{
+    display: none;
+
+    &.java-enabled
+    {
+        display: inherit;
+    }
+}
+
+.featured-item
+{
+    @include textStyling;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto 1fr;
+    height: 100%;
+
+    &:hover
+    {
+        cursor: grab;
+    }
+
+    @media #{$brk-xl}
+    {
+        grid-template-columns: 5fr 3fr;
+    }
+}
+
+.featured-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding: 10px;
+
+    .btn
+    {
+        z-index: 1;
+    }
+
+    p:last-of-type,
+    .brk-xlt-l
+    {
+        margin-bottom: auto;
+    }
+}
+
+.featured-media-container
+{
+    position: relative;
+    transform: translate(-50%, -50%);
+    left:50%;
+    top: 50%;
+    z-index: -1;
+
+    width: 100%;
+    height: fit-content;
+
+    iframe,
+    embed
+    {
+        width: 100%;
+        height: auto;
+
+        aspect-ratio: 16 / 9;
+    }
+}
+
+.featured-overlay-container
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.featured-overlay
+{
+    opacity: 0;
+    background-color: rgba($color: #ff0000, $alpha: 0.5);
+    position: relative;
+    top:0;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    &:hover
+    {
+        cursor: grab;
+    }
+}
+
+
+.smallImages
+{
+    img
+    {
+        display: inline-block;
+        max-width: 10%;
+
+        @media #{$brk-xl-true}
+        {
+            max-width: 25%;
+        }
+    }
+}
+
+//Slick styles
+
+.slides
+{
+    background-color: $color-primary-desat;
+}
+
+.slick-dots li button:before
+{
+    color:rgb(146, 146, 146);
+    font-size: 14px;
+}
+
+.slick-dots li.slick-active button:before
+{
+    color:white;
+    font-size: 14px;
+}
+
+.slick-slide 
+{
+    height: auto; // ← that must not be ignored
+    &>div
+    {
+        height: 100%;
+        &>div
+        {
+            height: 100%;
+        }
+    }
+}
+
+.slick-track
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
