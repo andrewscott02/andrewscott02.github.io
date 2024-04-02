@@ -57,7 +57,7 @@
     transform: translate(-50%, -50%);
     left:50%;
     top: 50%;
-    z-index: -1;
+    z-index: 5;
 
     width: 100%;
     height: fit-content;
@@ -74,10 +74,17 @@
 
 .featured-overlay-container
 {
+    display: none;
     position: absolute;
+    z-index: 10;
     top: 0;
     width: 100%;
     height: 100%;
+
+    @media #{$brk-xl}
+    {
+        display: inherit;
+    }
 }
 
 .featured-overlay
