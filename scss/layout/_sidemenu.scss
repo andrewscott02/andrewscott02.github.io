@@ -47,6 +47,7 @@
 
 .sideMenu
 {
+    opacity: 1;
     background-color: $color-secondary-dark;
     width: 100vw;
     height: 100vh;
@@ -54,13 +55,16 @@
 
 .sideMenu-items
 {
+    background-color: $color-secondary-dark;
     z-index: 200;
     position: sticky;
-    top: 150px;
+    top: 0;
     align-self: start;
     
     padding: 0.15em;
+    padding-top: 150px;
     border: 0;
 
     width: 100%;
+    height: 100%;
 }

@@ -15,6 +15,8 @@ $(document).ready(()=>{
 //Resizes the side panel when page is resized
 $(window).on("resize", ()=>{
     SetSidePanelSize();
+    //Resizes after a small delay to wait for the page to resize, due to transition ease
+    setTimeout(SetSidePanelSize, 500);
 });
 
 function SetSidePanelSize()
@@ -88,6 +90,7 @@ $( document ).ready(()=>{
 
 //Hover
 $("#HeroImage").on("mouseenter", ()=>{
+    document.querySelector('video').play();
     ClearAllTimeouts()
     ScrambleText($("#HeroImage h1"), H_scrambleTime);
     ScrambleText($("#HeroImage p"), P_scrambleTime);
@@ -191,13 +194,6 @@ function SetStringContent($textObj, newString)
 //#endregion
 
 //#region Form Validation
-
-/**
- * Implement JavaScript validation on the form
- * 
- * Required Fields
- * Regex checks for email and phone number formatting
- */
 
 $(".form-sbmt").on("click", (event)=>{
     CheckFormFields(event);
@@ -328,9 +324,15 @@ const urlEnd = window.location.href.substring(urlHIndex);
 const replaceAnchor = urlEnd == "#Games" ? "#Featured" : urlEnd;
 
 //When page is loaded, scroll down to section
-$('html, body').animate({
-    scrollTop: $(replaceAnchor).offset().top
-}, 500);
+
+$(document).ready(()=>{
+    if(replaceAnchor != null)
+    {
+        $('html, body').animate({
+            scrollTop: $(replaceAnchor).offset().top
+        }, 500);
+    }
+});
 
 //If anchor links to section on same page, do not reload the page
 //Instead, scroll to section
@@ -356,18 +358,68 @@ document.querySelectorAll('a').forEach(anchor => {
 //#region Show/Hide Code Snippets
 
 $(".codeSnippet").find("a").next().hide();
+$(".codeSnippet").find("a").next().css("opacity", 0);
 
 $(".codeSnippet").find("a").on("click", (event)=>{
     if ($(event.target).next().css("display") ==="none")
     {
         $(".codeSnippet").find("a").next().hide(); //Hides all other snippets
         $(event.target).next().show();
+        $(event.target).next().css("opacity", 1);
     }
     else
     {
         $(event.target).next().hide();
+        $(event.target).next().css("opacity", 0);
     }
 })
+
+//#endregion
+
+//#region Text Fade In and Out
+
+$(document).ready(()=>{
+    //Adds relative positions to the elements, only if javascript is enabled
+    $(".project").css("position", "relative");
+    $(".achievement").css("position", "relative");
+
+    CheckAllOpacities();
+});
+
+$(window).on('resize scroll', CheckAllOpacities);
+
+function CheckAllOpacities()
+{
+    CheckSelectorOpacities(".project");
+    CheckSelectorOpacities(".achievement");
+}
+
+function CheckSelectorOpacities(selector)
+{
+    $(selector).each((index, element)=>{
+        if (InViewport($(element), 40))
+        {
+            //If in viewport, fade into view and move up slightly
+            $(element).css("opacity", "1");
+            $(element).css("top", "0");
+        }
+        else
+        {
+            //If in viewport, fade out of view and move down
+            $(element).css("opacity", "0");
+            $(element).css("top", "10px");
+        }
+    });
+}
+
+//#endregion
+
+//#region Autoplay Banner Video
+
+$(document).ready(()=>{
+    document.querySelector('video').autoplay = true;
+    document.querySelector('video').play();
+});
 
 //#endregion
 
@@ -386,69 +438,18 @@ function RandomRange(minRaw = 0, maxRaw = 0)
     var range = parseInt(max) - parseInt(min);
     var result = Math.floor(Math.random() * range) + parseInt(min);
     return result;
-
-    // if (min && max) //This checks that the numbers are not NaN
-    // {
-    //     var range = parseInt(max) - parseInt(min);
-    //     var result = Math.floor(Math.random() * range) + parseInt(min);
-    //     return result;
-    // }
-    // else
-    // {
-    //     alert("Inputs are not valid inputs");
-    //     throw Error("Inputs are not valid inputs");
-    // }
 }
 
-//#endregion
+/** Checks if element is visible in the viweport */
+function InViewport(element, bounds) 
+{
+    var elementTop = $(element).offset().top;
+    var elementBottom = elementTop + $(element).outerHeight();
 
+    var viewportTop = $(window).scrollTop() + bounds;
+    var viewportBottom = viewportTop + $(window).height() - (bounds*2);
 
-
-
-
-
-
-//#region Not Implemented
-
-//#region Scale Videos
-
-//$("iframe").fitVids();
-
-// $("iframe").each((item)=>{
-//     $(item).width = $(item).contentWindow.document.body.scrollWidth;
-//     $(item).height = $(item).contentWindow.document.body.scrollHeight;
-// });
-
-//#endregion
-
-//#region Mouse Hover On Cards
-
-// $(".project").on("mouseleave", (event)=>{
-//     $(event.target).removeClass("show-vid");
-//     //ResizeVidBorders();
-// })
-
-// ResizeVidBorders();
-
-// function ResizeVidBorders()
-// {
-//     alert("Resizing videos");
-
-//     $(".project iframe").each((item)=>{
-//         alert("Resizing " + item + " video");
-//         imgHeight = $(item).prev().outerHeight();
-//         vidHeight = $(item).outerHeight();
-
-//         heightDiff = imgHeight - vidHeight;
-
-//         // vidTopPadding = $(item).css("paddingTop") + heightDiff/2;
-//         // vidBottomPadding = $(item).css("paddingBottom") + heightDiff/2;
-
-//         $(item).css("paddingTop", heightDiff/2)
-//         $(item).css("paddingBottom", heightDiff/2)
-//     })
-// }
-
-//#endregion
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+};
 
 //#endregion
