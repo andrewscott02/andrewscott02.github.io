@@ -366,11 +366,15 @@ $(".codeSnippet").find("a").on("click", (event)=>{
         $(".codeSnippet").find("a").next().hide(); //Hides all other snippets
         $(event.target).next().show();
         $(event.target).next().css("opacity", 1);
+
+        console.log($(event.target).html("Hide Code"));
     }
     else
     {
         $(event.target).next().hide();
         $(event.target).next().css("opacity", 0);
+
+        console.log($(event.target).html("Show Code"));
     }
 })
 

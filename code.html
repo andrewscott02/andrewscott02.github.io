@@ -365,6 +365,179 @@
                         </pre>
                     </div>
                 </div>
+                <div id="NetmattersHomepage" class="codeSnippet-Project">
+                    <h3>Netmatters Homepage</h3>
+                    <p>JavaScript code for my Netmatters Homepage Assessment</p>
+
+                    <h4>Cookies</h4>
+                    <div class="codeSnippet">
+                        <a href="#NetmattersHomepage" class="btn requires-javascript">Show Code</a>
+                        <pre>
+/** Checks whether the Cookies Popup menu should appear
+ * 
+ * @returns {bool} Boolean value of whether cookies popup should appear
+ */
+function CheckCookiesData()
+{
+    if (!document.cookie.toString().includes("cookiesAccepted=true"))
+    {
+        OpenCookies();
+        return true;
+    }
+    else
+    {
+        console.log("Cookies data is " + document.cookie);
+        return false;
+    }
+}
+
+/**Opens Cookies Popup */
+function OpenCookies()
+{
+    console.log("Opening Cookies Popup, data is " + document.cookie);
+
+    $('body').addClass('stop-scrolling');
+    $("#CookiesPopup").show();
+}
+
+//Add click event to accept cookies button
+$("#AcceptCookies").on("click", ()=>{
+    CloseCookies();
+});
+
+/**Closes Cookies Popup */
+function CloseCookies()
+{
+    //Send cookies closed via AJAX
+    console.log("Closing Cookies Popup");
+    SetCookiesData(true);
+
+    $('body').removeClass('stop-scrolling');
+    $("#CookiesPopup").hide();
+
+    console.log("Cookies data is " + document.cookie);
+}
+
+/** Sets Cookies Accepted Value
+ * 
+ * @param {bool} value Boolean value for if the cookies have been accepted
+ * 
+ * @returns {string} String value representing the new cookies data
+ */
+function SetCookiesData(value)
+{
+	document.cookie = `cookiesAccepted=${value}`;
+    return document.cookie;
+}
+
+/** Deletes all cookies generated
+ *  || Not called here, intended to be used in console
+ */
+function DeleteAllCookies()
+{
+    const cookies = document.cookie.split(";");
+
+    for (let i = 0; i &lt; cookies.length; i++) {
+        const cookie = cookies[i];
+        const eqPos = cookie.indexOf("=");
+        const name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+
+        //Sets expiry date in past so it will be deleted
+        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+    }
+}
+                        </pre>
+                    </div>
+                    
+                    <h4>Sticky Header</h4>
+                    <div class="codeSnippet">
+                        <a href="#NetmattersHomepage" class="btn requires-javascript">Show Code</a>
+                        <pre>
+const navThreshold = 250;
+
+let prevScroll = 0;
+let stickyHeaderActive = true;
+
+let scrollUpTimeout;
+
+//Adds CheckScroll to scroll event
+$(".maincontent-inner").on('scroll', CheckScroll);
+
+//Determines whether header should be sticky when scrolling
+function CheckScroll(event)
+{
+    let scroll = $(".maincontent-inner").scrollTop();
+
+    //Checks if scroll direction was up or down
+    if (scroll > prevScroll)
+    {
+        //Show header
+        console.log("scroll down");
+
+        if (scroll > navThreshold)
+        {
+            if (stickyHeaderActive)
+            {
+                stickyHeaderActive = false;
+                AnimateHeader(false, 1.3);
+    
+                scrollUpTimeout = setTimeout(() => {
+                    $(".sticky-header").removeClass("sticky");
+                }, 500);
+            }
+        }
+        else
+        {
+            $(".sticky-header").removeClass("sticky");
+        }
+    }
+    else
+    {
+        //Hide header
+        console.log("scroll up");
+
+        if (scroll > navThreshold)
+        {
+            if (!stickyHeaderActive)
+            {
+                stickyHeaderActive = true;
+                clearTimeout(scrollUpTimeout);
+
+                $(".sticky-header").addClass("sticky");
+                AnimateHeader(true, 0.6);
+            }
+        }
+        else
+        {
+            $(".sticky-header").removeClass("sticky");
+        }
+    }
+
+    prevScroll = scroll;
+}
+
+//Animates the header so it slides up or down
+function AnimateHeader(down, transitionTime)
+{
+    from = "0";
+    to = "-100%";
+    if (down)
+    {
+        from = $(".sticky-header").css("top");
+        to = "0";
+    }
+
+    $(".sticky-header").css("transition", "all 0s");
+    $(".sticky-header").css("top", from);
+
+    setTimeout(() => {
+        $(".sticky-header").css("transition", `all ${transitionTime}s`);
+        $(".sticky-header").css("top", to);
+    }, 200);
+}
+                        </pre>
+                    </div>
+                </div>
             </div>
         </main>
         <footer id="Footer">
