@@ -114,7 +114,8 @@ function UpdateScore()
 
 const character = {
     x: 0,
-    y: 40,
+    y: 0,
+    initialPosY: 40,
     size : 10,
     speed: 25,
     target: 0
@@ -123,7 +124,7 @@ const character = {
 function InitializeCharacter()
 {
     character.x = 0;
-    character.y = board.height - character.y;
+    character.y = board.height - character.initialPosY;
     character.target = 0;
 }
 

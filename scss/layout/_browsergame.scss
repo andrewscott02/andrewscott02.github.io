@@ -5,11 +5,11 @@
 #GameViewport
 {
     margin: auto;
-    max-width: 600px;
-    width: 80%;
+    max-width: 500px;
+    width: 60%;
     height: auto;
-
-    aspect-ratio: 16/20;
+    max-height: 70%;
+    aspect-ratio: 16 / 16;
 
     background-color: rgb(124, 124, 124);
 

@@ -76,6 +76,11 @@
     {
         grid-template-columns: 1fr 1fr;
     }
+
+    @media #{$brk-xl-true}
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 .achievement
@@ -161,7 +166,5 @@
     {
         left: initial;
         right: 100%;
-        
-        font-size: 1em;
     }
 }
