@@ -22,6 +22,7 @@ function ShowCVPDF()
         var height = $(document).height() * 0.85;
 
         return `
+            <h2>CV</h2>
             <embed src="files/CV.pdf" width="${width}" height="${height}" type="application/pdf">
         `;
     }
@@ -29,8 +30,11 @@ function ShowCVPDF()
     function GetHTMLMobile()
     {
         return `
-            <img src="Images/CV1.png"></img>
-            <img src="Images/CV2.png"></img>
+            <h2>CV</h2>
+            <div>
+                <img src="Images/CV1.png"></img>
+                <img src="Images/CV2.png"></img>
+            </div>
         `;
     }
 };
