@@ -11,3 +11,21 @@
       width: 100%;
    }
 }
+
+.cv
+{
+   display: none;
+
+   @media #{$med-has-pointer}
+   {
+      display: inherit;
+   }
+}
+
+.cv-mobile
+{
+   @media #{$med-has-pointer}
+   {
+      display: none;
+   }
+}

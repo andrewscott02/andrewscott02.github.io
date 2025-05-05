@@ -1,4 +1,4 @@
-const isMobile = navigator.userAgentData.mobile || window.navigator.userAgent.toLowerCase().includes("mobi");
+const isMobile = window.navigator.userAgent.toLowerCase().includes("mobi");
 
 $(document).ready(()=>{
     ShowCVPDF();
@@ -12,7 +12,7 @@ $(window).on("resize", ()=>{
 function ShowCVPDF()
 {
     var node = document.getElementById('CV');
-    node.innerHTML = isMobile ? GetHTMLMobile() : GetHTML(node);
+    node.innerHTML = `${GetHTMLMobile()}${GetHTML(node)}`;
 
     function GetHTML(node)
     {
@@ -22,18 +22,22 @@ function ShowCVPDF()
         var height = $(document).height() * 0.85;
 
         return `
-            <h2>CV</h2>
-            <embed src="files/CV.pdf" width="${width}" height="${height}" type="application/pdf">
+            <div class="cv">
+                <h2>CV</h2>
+                <embed src="files/CV.pdf" width="${width}" height="${height}" type="application/pdf">
+            </div>
         `;
     }
 
     function GetHTMLMobile()
     {
         return `
-            <h2>CV</h2>
-            <div>
-                <img src="Images/CV1.png"></img>
-                <img src="Images/CV2.png"></img>
+            <div class="cv-mobile">
+                <h2>CV</h2>
+                <div>
+                    <img src="Images/CV1.png"></img>
+                    <img src="Images/CV2.png"></img>
+                </div>
             </div>
         `;
     }

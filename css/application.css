@@ -399,6 +399,21 @@ footer {
   width: 100%;
 }
 
+.cv {
+  display: none;
+}
+@media (not (pointer:none)) and (not (pointer:coarse)) {
+  .cv {
+    display: inherit;
+  }
+}
+
+@media (not (pointer:none)) and (not (pointer:coarse)) {
+  .cv-mobile {
+    display: none;
+  }
+}
+
 /* ===================================== 
    Contact Form
 ======================================== */
