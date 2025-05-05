@@ -1,4 +1,5 @@
 const isMobile = navigator.userAgentData.mobile; 
+// const isMobileDevice = window.navigator.userAgent.toLowerCase().includes("mobi");
 
 $(document).ready(()=>{
     ShowCVPDF();
@@ -30,6 +31,7 @@ function ShowCVPDF()
     function GetHTMLMobile()
     {
         return `
+            <p>showing mobile</p>
             <img src="Images/CV1.png"></img>
             <img src="Images/CV2.png"></img>
         `;
