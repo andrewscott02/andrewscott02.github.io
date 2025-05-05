@@ -22,7 +22,6 @@ function ShowCVPDF()
         var height = $(document).height() * 0.85;
 
         return `
-            <p>showing pc</p>
             <embed src="files/CV.pdf" width="${width}" height="${height}" type="application/pdf">
         `;
     }
