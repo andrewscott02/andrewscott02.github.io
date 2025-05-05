@@ -10,12 +10,11 @@ $(window).on("resize", ()=>{
 function ShowCVPDF()
 {
     var node = document.getElementById('CV');
+    node.innerHTML = "";
     node.innerHTML = `${GetHTMLMobile()}${GetHTML(node)}`;
 
     function GetHTML(node)
     {
-        node.innerHTML = "";
-
         var width = node.offsetWidth;
         var height = $(document).height() * 0.85;
 
