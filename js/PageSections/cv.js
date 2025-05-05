@@ -1,5 +1,3 @@
-const isMobile = window.navigator.userAgent.toLowerCase().includes("mobi");
-
 $(document).ready(()=>{
     ShowCVPDF();
 });
