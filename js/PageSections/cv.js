@@ -12,27 +12,25 @@ $(window).on("resize", ()=>{
 function ShowCVPDF()
 {
     var node = document.getElementById('CV');
-    
-    node.innerHTML = "";
+    node.innerHTML = isMobile ? GetHTMLMobile() : GetHTML(node);
 
-    var width = node.offsetWidth;
-    var height = GetHeight();
-
-    console.log(isMobile + " | " + height);
-
-    node.innerHTML = GetHTML(width, height);
-
-    function GetHTML(width, height)
+    function GetHTML(node)
     {
+        node.innerHTML = "";
+
+        var width = node.offsetWidth;
+        var height = $(document).height() * 0.85;
+
         return `
             <embed src="files/CV.pdf" width="${width}" height="${height}" type="application/pdf">
         `;
     }
 
-    function GetHeight()        
+    function GetHTMLMobile()
     {
-        return isMobile
-        ? 800
-        : $(document).height() * 0.85;
+        return `
+            <img src="Images/CV1.png"></img>
+            <img src="Images/CV2.png"></img>
+        `;
     }
 };
